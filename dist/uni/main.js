@@ -486,10 +486,10 @@ var BoardComponent = /** @class */ (function () {
         this.uniService = uniService;
         this.maxPost = 13;
         this.writeForm = this.fb.group({
-            contents: ['']
+            contents: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]
         });
         this.comment_writeForm = this.fb.group({
-            contents: ['']
+            contents: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]
         });
         this.getList();
     }
@@ -1041,10 +1041,10 @@ var StartComponent = /** @class */ (function () {
         this.uniService = uniService;
         this.router = router;
         this.signUpForm = this.fb.group({
-            id: [''],
-            pw: [''],
-            pwc: [''],
-            email: [''],
+            id: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
+            pw: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
+            pwc: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
+            email: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
         });
     }
     StartComponent.prototype.ngOnInit = function () {
@@ -1656,7 +1656,7 @@ var UniService = /** @class */ (function () {
         };
         //url = "http://121.145.54.15:5000"
         //url = "http://127.0.0.1:5000"
-        this.url = "http://13.59.193.150:5000";
+        this.url = "http://13.209.89.156:5000";
     }
     UniService.prototype.registerNewUser = function (userData) {
         return this.http.post(this.url + '/users', userData);
@@ -1952,25 +1952,25 @@ var LoginRegisterComponent = /** @class */ (function () {
         this.display_grade2 = true;
         this.display_grade3 = true;
         this.signInForm = this.fb.group({
-            user_id: [''],
-            user_pw: [''],
+            user_id: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
+            user_pw: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
         });
         this.signUpForm = this.fb.group({
-            user_id: [''],
-            user_pw: [''],
-            user_pwc: [''],
-            user_que: [''],
-            user_ans: [''],
+            user_id: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
+            user_pw: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
+            user_pwc: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
+            user_que: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required],
+            user_ans: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required],
         });
         this.checkAccountForm = this.fb.group({
-            user_id: ['']
+            user_id: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required]
         });
         this.checkQuestionForm = this.fb.group({
-            user_ans: ['']
+            user_ans: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required]
         });
         this.resetPasswdForm = this.fb.group({
-            pw: [''],
-            pwc: ['']
+            pw: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
+            pwc: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')]
         });
     }
     LoginRegisterComponent.prototype.ngOnInit = function () {
@@ -2763,7 +2763,7 @@ module.exports = ".container{\r\n    font-family: 'Jua', sans-serif;\r\n    widt
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\r\n  <div class=\"profile_head\"><span>프로필</span></div>\r\n  <div class=\"profile_body\">\r\n    계 정 <span *ngIf=\"data\" class=\"big-font\">{{data.id}}</span><br>\r\n    별 명 <span *ngIf=\"data\" class=\"big-font\">{{data.nickname}}</span>\r\n  </div>\r\n  <div class=\"profile_footer\">\r\n    <button (click)=\"editNick(nickname)\" class=\"change_btn\">별명 변경</button>\r\n    <button (click)=\"changePasswd(password)\" class=\"change_btn\">암호 변경</button>\r\n    <button class=\"change_btn\" (click)=\"logout()\">로그 아웃</button>\r\n  </div>\r\n</div>\r\n\r\n\r\n<ng-template #nickname let-nickModal>\r\n  <div class=\"modal-header\">\r\n    <h4 class=\"modal-title\" id=\"modal-basic-title\">별명 바꾸기</h4>\r\n    <button type=\"button\" class=\"close\" aria-label=\"Close\" (click)=\"close()\">\r\n        <span aria-hidden=\"true\">&times;</span>\r\n    </button>\r\n  </div>\r\n  <form [formGroup]=\"nicknameForm\" (ngSubmit)=\"edit()\">\r\n  <div class=\"modal-body\">\r\n      <input id=\"nickname\" class=\"form-control\" formControlName=\"nickname\" placeholder=\"별명을 입력해주세요.\" required>\r\n  </div>\r\n  <div class=\"modal-footer\">\r\n    <button type=\"submit\" class=\"btn btn-outline-dark\"  [disabled]=\"!nicknameForm.valid\">변경</button>\r\n  </div>\r\n</form>\r\n</ng-template>\r\n\r\n\r\n<ng-template #password let-passwdModal>\r\n  <div class=\"modal-header\">\r\n    <h4 class=\"modal-title\" id=\"modal-basic-title\">암호 바꾸기</h4>\r\n    <button type=\"button\" class=\"close\" aria-label=\"Close\" (click)=\"close()\">\r\n        <span aria-hidden=\"true\">&times;</span>\r\n    </button>\r\n  </div>\r\n  <form [formGroup]=\"passwdChangeForm\" (ngSubmit)=\"change()\">\r\n    <div class=\"modal-body\">\r\n      <div class=\"form-group\">\r\n        <label>기존 암호</label>\r\n        <div class=\"input-group\">\r\n          <input type=\"password\" id=\"old_pw\" formControlName=\"old_pw\" class=\"form-control\">\r\n        </div>\r\n        <label>새 암호</label>\r\n        <div class=\"input-group\">\r\n          <input type=\"password\" id=\"new_pw\" formControlName=\"new_pw\" class=\"form-control\">\r\n        </div>\r\n        <label>한 번 더!</label>\r\n        <div class=\"input-group\">\r\n          <input type=\"password\" id=\"new_pwc\" formControlName=\"new_pwc\" class=\"form-control\">\r\n        </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"modal-footer\">\r\n    <button type=\"submit\" class=\"btn btn-outline-dark\">확인</button>\r\n  </div>\r\n</form>\r\n</ng-template>\r\n"
+module.exports = "<div class=\"container\">\r\n  <div class=\"profile_head\"><span>프로필</span></div>\r\n  <div class=\"profile_body\">\r\n    계 정 <span *ngIf=\"data\" class=\"big-font\">{{data.id}}</span><br>\r\n    별 명 <span *ngIf=\"data\" class=\"big-font\">{{data.nickname}}</span>\r\n  </div>\r\n  <div class=\"profile_footer\">\r\n    <button (click)=\"editNick(nickname)\" class=\"change_btn\">별명 변경</button>\r\n    <button (click)=\"changePasswd(password)\" class=\"change_btn\">암호 변경</button>\r\n    <button class=\"change_btn\" (click)=\"logout()\">로그 아웃</button>\r\n  </div>\r\n</div>\r\n\r\n\r\n<ng-template #nickname let-nickModal>\r\n  <div class=\"modal-header\">\r\n    <h4 class=\"modal-title\" id=\"modal-basic-title\">별명 바꾸기</h4>\r\n    <button type=\"button\" class=\"close\" aria-label=\"Close\" (click)=\"close()\">\r\n        <span aria-hidden=\"true\">&times;</span>\r\n    </button>\r\n  </div>\r\n  <form [formGroup]=\"nicknameForm\" (ngSubmit)=\"edit()\">\r\n  <div class=\"modal-body\">\r\n      <input id=\"nickname\" class=\"form-control\" formControlName=\"nickname\" placeholder=\"별명을 입력해주세요.\" required>\r\n  </div>\r\n  <div class=\"modal-footer\">\r\n    <button type=\"submit\" class=\"btn btn-outline-dark\"  [disabled]=\"!nicknameForm.valid\">변경</button>\r\n  </div>\r\n</form>\r\n</ng-template>\r\n\r\n\r\n<ng-template #password let-passwdModal>\r\n  <div class=\"modal-header\">\r\n    <h4 class=\"modal-title\" id=\"modal-basic-title\">암호 바꾸기</h4>\r\n    <button type=\"button\" class=\"close\" aria-label=\"Close\" (click)=\"close()\">\r\n        <span aria-hidden=\"true\">&times;</span>\r\n    </button>\r\n  </div>\r\n  <form [formGroup]=\"passwdChangeForm\" (ngSubmit)=\"change()\">\r\n    <div class=\"modal-body\">\r\n      <div class=\"form-group\">\r\n        <label>기존 암호</label>\r\n        <div class=\"input-group\">\r\n          <input type=\"password\" id=\"old_pw\" formControlName=\"old_pw\" class=\"form-control\">\r\n        </div>\r\n        <label>새 암호</label>\r\n        <div class=\"input-group\">\r\n          <input type=\"password\" id=\"new_pw\" formControlName=\"new_pw\" class=\"form-control\">\r\n        </div>\r\n        <label>한 번 더!</label>\r\n        <div class=\"input-group\">\r\n          <input type=\"password\" id=\"new_pwc\" formControlName=\"new_pwc\" class=\"form-control\">\r\n        </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"modal-footer\">\r\n    <button type=\"submit\" class=\"btn btn-outline-dark\" [disabled]=\"!passwdChangeForm.valid\">확인</button>\r\n  </div>\r\n</form>\r\n</ng-template>\r\n"
 
 /***/ }),
 
@@ -2801,7 +2801,7 @@ var ProfileComponent = /** @class */ (function () {
         this.uniService = uniService;
         this.nickname = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
         this.nicknameForm = this.fb.group({
-            nickname: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]
+            nickname: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].pattern('[^ \t\r\n\v\f]*')]
         });
         this.passwdChangeForm = this.fb.group({
             old_pw: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
@@ -3086,14 +3086,15 @@ var StartSignUpComponent = /** @class */ (function () {
         this.fb = fb;
         this.uniService = uniService;
         this.signUpForm = this.fb.group({
-            user_id: [''],
-            user_pw: [''],
-            user_pwc: [''],
-            user_que: [''],
-            user_ans: [''],
+            user_id: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
+            user_pw: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
+            user_pwc: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
+            user_que: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
+            user_ans: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
         });
     }
     StartSignUpComponent.prototype.ngOnInit = function () {
+        this.signUpForm.reset();
     };
     StartSignUpComponent.prototype.registerNewUser = function () {
         this.userData = {
@@ -3268,7 +3269,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\wo786\pookle\client\UNI\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\wo786\Pookle\client\UNI\src\main.ts */"./src/main.ts");
 
 
 /***/ })

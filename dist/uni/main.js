@@ -436,7 +436,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "#board-container{\r\n    margin-top:160px;\r\n    padding-top:20px;\r\n    border-radius:10px;\r\n}\r\n\r\n.nickname{\r\n    display: inline-block;\r\n}\r\n\r\n.write-div{\r\n    height:80px;\r\n    text-align:right;\r\n}\r\n\r\n.write-btn{\r\n    height:60px;\r\n    margin:0 auto;\r\n    padding:15px;\r\n    border:0px;\r\n    background-color:#212529;\r\n    color:#fed136;\r\n    font-family: 'Do Hyeon', sans-serif;\r\n    font-size:20px;\r\n    border-radius:5px;\r\n}\r\n\r\n.post{\r\n    min-height:150px;\r\n    max-height:800px;\r\n    padding:15px 15px 5px;\r\n    margin-bottom: 10px;\r\n\r\n    border:1px solid #CCCCCC;\r\n    border-radius:5px;\r\n    background-color: white;\r\n\r\n}\r\n\r\n.post .time{\r\n    color:darkgray;\r\n    font-size:10px;\r\n\r\n}\r\n\r\n.post .post-contents{\r\n    display: inline-block; \r\n    width: 100%; \r\n    overflow: hidden; \r\n    text-overflow: ellipsis; \r\n    white-space: normal; \r\n    line-height: 1.2; \r\n    max-height: 6.0rem; \r\n    text-align: left; \r\n    word-wrap: break-word; \r\n    display: -webkit-box; \r\n    -webkit-line-clamp: 3;\r\n}\r\n\r\n.like-div{\r\n    display: inline-block;\r\n    padding:5px;\r\n}\r\n\r\n.like-btn, .toggle-comment{\r\n    font-size:20px;\r\n    margin-right:50px;\r\n    display: inline-block;\r\n    width:80px;\r\n    height:35px;\r\n    text-align:center;\r\n    line-height: 30px;\r\n}\r\n\r\n.like-btn>.like-num, .toggle-comment>span{\r\n    color:#212529a9;\r\n}\r\n\r\n.heart{\r\n    color:palevioletred;\r\n    font-weight: bold;\r\n    font-size:23px;\r\n    font-family: 'Do Hyeon', sans-serif;\r\n}\r\n\r\n.toggle-comment:hover, .like-btn:hover{\r\n    background-color:#DDDDDD;\r\n}\r\n\r\n.align-center{\r\n    text-align:center;\r\n}\r\n\r\n.comment-div{\r\n    border-top:solid rgb(210, 210, 210) 0.5px;\r\n    padding-top:5px;\r\n    padding-bottom: 5px;\r\n    margin-top:10px;\r\n}\r\n\r\n.comment-list{\r\n    margin-top:10px;\r\n}\r\n\r\n.comment{\r\n    margin-bottom:5px;\r\n    padding:3px 8px;\r\n    border:0;\r\n    border-radius: 5px;\r\n    background-color: rgb(240, 240, 240);\r\n}\r\n\r\n.comment-textarea{\r\n    width:90%; \r\n    margin:3px 0px;\r\n}\r\n\r\n.delete{\r\n    display: inline-block;\r\n    background-color:transparent;\r\n    border:0px;\r\n    color:#888888;\r\n    font-size:15px;\r\n    line-height:15px;\r\n}\r\n\r\n.name{\r\n    font-size:15px;\r\n    font-weight: bold;\r\n}\r\n\r\n.write-area{\r\n    width:100%;\r\n    height:200px;\r\n}\r\n\r\n@media (min-width: 1200px) {\r\n    .container {\r\n      width: 1000px;\r\n    }\r\n}\r\n\r\n@media (max-width: 992px) {\r\n    .container {\r\n      width: 600px;\r\n    }\r\n    .comment-textarea{\r\n        width:70%; \r\n    }\r\n}\r\n\r\n@media (max-width: 576px) {\r\n    .container {\r\n      width: 100%;\r\n    }\r\n    #board-container{\r\n        margin-top:90px;\r\n    }\r\n    .write-div{\r\n        height:60px;\r\n        text-align:center;\r\n    }\r\n    .write-btn{\r\n        width:100%;\r\n        height:55px;\r\n        margin:0 auto;\r\n        border:0px;\r\n        background-color:#212529;\r\n        color:#fed136;\r\n        font-family: 'Do Hyeon', sans-serif;\r\n        font-size:20px;\r\n        border-radius:5px;\r\n    }\r\n}"
+module.exports = "#board-container{\r\n    margin-top:160px;\r\n    padding-top:20px;\r\n    border-radius:10px;\r\n}\r\n\r\n.nickname{\r\n    display: inline-block;\r\n}\r\n\r\n.write-div{\r\n    height:80px;\r\n    text-align:right;\r\n}\r\n\r\n.write-btn{\r\n    height:60px;\r\n    margin:0 auto;\r\n    padding:15px;\r\n    border:0px;\r\n    background-color:#212529;\r\n    color:#fed136;\r\n    font-family: 'Do Hyeon', sans-serif;\r\n    font-size:20px;\r\n    border-radius:5px;\r\n}\r\n\r\n.post{\r\n    min-height:150px;\r\n    max-height:10000px;\r\n    padding:15px 15px 5px;\r\n    margin-bottom: 10px;\r\n\r\n    border:1px solid #CCCCCC;\r\n    border-radius:5px;\r\n    background-color: white;\r\n\r\n}\r\n\r\n.post .time{\r\n    color:darkgray;\r\n    font-size:10px;\r\n\r\n}\r\n\r\n.post .post-contents{\r\n    display: inline-block; \r\n    width: 100%; \r\n}\r\n\r\n.like-div{\r\n    display: inline-block;\r\n    padding:5px;\r\n}\r\n\r\n.like-btn, .toggle-comment{\r\n    font-size:20px;\r\n    margin-right:50px;\r\n    display: inline-block;\r\n    width:80px;\r\n    height:35px;\r\n    text-align:center;\r\n    line-height: 30px;\r\n}\r\n\r\n.like-btn>.like-num, .toggle-comment>span{\r\n    color:#212529a9;\r\n}\r\n\r\n.heart{\r\n    color:palevioletred;\r\n    font-weight: bold;\r\n    font-size:23px;\r\n    font-family: 'Do Hyeon', sans-serif;\r\n}\r\n\r\n.toggle-comment:hover, .like-btn:hover{\r\n    background-color:#DDDDDD;\r\n}\r\n\r\n.align-center{\r\n    text-align:center;\r\n}\r\n\r\n.comment-div{\r\n    border-top:solid rgb(210, 210, 210) 0.5px;\r\n    padding-top:5px;\r\n    padding-bottom: 5px;\r\n    margin-top:10px;\r\n}\r\n\r\n.comment-list{\r\n    margin-top:10px;\r\n}\r\n\r\n.comment{\r\n    margin-bottom:5px;\r\n    padding:3px 8px;\r\n    border:0;\r\n    border-radius: 5px;\r\n    background-color: rgb(240, 240, 240);\r\n}\r\n\r\n.comment-textarea{\r\n    width:90%; \r\n    margin:3px 0px;\r\n}\r\n\r\n.delete{\r\n    display: inline-block;\r\n    background-color:transparent;\r\n    border:0px;\r\n    color:#888888;\r\n    font-size:15px;\r\n    line-height:15px;\r\n}\r\n\r\n.name{\r\n    font-size:15px;\r\n    font-weight: bold;\r\n}\r\n\r\n.write-area{\r\n    width:100%;\r\n    height:200px;\r\n}\r\n\r\n@media (min-width: 1200px) {\r\n    .container {\r\n      width: 1000px;\r\n    }\r\n}\r\n\r\n@media (max-width: 992px) {\r\n    .container {\r\n      width: 600px;\r\n    }\r\n    .comment-textarea{\r\n        width:70%; \r\n    }\r\n}\r\n\r\n@media (max-width: 576px) {\r\n    .container {\r\n      width: 100%;\r\n    }\r\n    #board-container{\r\n        margin-top:90px;\r\n    }\r\n    .write-div{\r\n        height:60px;\r\n        text-align:center;\r\n    }\r\n    .write-btn{\r\n        width:100%;\r\n        height:55px;\r\n        margin:0 auto;\r\n        border:0px;\r\n        background-color:#212529;\r\n        color:#fed136;\r\n        font-family: 'Do Hyeon', sans-serif;\r\n        font-size:20px;\r\n        border-radius:5px;\r\n    }\r\n}"
 
 /***/ }),
 
@@ -447,7 +447,7 @@ module.exports = "#board-container{\r\n    margin-top:160px;\r\n    padding-top:
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<link href=\"https://fonts.googleapis.com/css?family=Do+Hyeon|Nanum+Pen+Script\" rel=\"stylesheet\">\r\n\r\n<div class=\"container\" id=\"board-container\">\r\n    <div class=\"write-div\" *ngIf=\"is_auth\">\r\n        <button (click)=\"write(content)\" class=\"write-btn\"><i class=\"fas fa-pencil-alt\"></i> 글 쓰러 가기</button> \r\n    </div>\r\n\r\n    <div *ngFor=\"let post of small_posts; index as i\" class=\"post\">\r\n        <h3 class=\"nickname\">{{post.author}}</h3>\r\n        <span class=\"time\">&nbsp;{{post.date}}</span>\r\n        <button class=\"delete float-right\" *ngIf=\"user && post.author==user.user_nick || isAdmin\" (click)=\"delete_post(i)\">X</button>\r\n        <button class=\"delete float-right\" *ngIf=\"user && post.author==user.user_nick || isAdmin\" (click)=\"delete_post(i)\"><span class=\"fas fa-pencil-alt\"></span></button>\r\n\r\n        <div class=\"post-contents\">{{post.contents}}</div>\r\n        <div class=\"comment-div\">\r\n            <a class=\"like-btn\" (click)=\"favorite(i)\">\r\n                <span *ngIf=\"!isFavorite[i]\" class=\"heart\" style=\"margin-right:20px;\">♡</span>\r\n                <span *ngIf=\"isFavorite[i]\" class=\"heart\" style=\"margin-right:20px;\">♥</span>\r\n                <span class=\"like-num\">{{post.fav_cnt}}</span>\r\n            </a>\r\n            <a class=\"toggle-comment\" (click)=\"collapsed(i)\" [attr.aria-expanded]=\"isCollapsed[i]\" aria-controls=\"collapseExample\">\r\n                <span  class=\"fa-comment\" [class.far]=\"isCollapsed[i]\" [class.fas]=\"!isCollapsed[i]\" style=\"margin-right:20px;\"></span>\r\n                <span class=\"comment-num\">{{post.comment.length}}</span>\r\n            </a>\r\n            <div class=\"comment-list\" [ngbCollapse]=\"isCollapsed[i]\">\r\n                <div *ngFor=\"let comment of post.comment; index as j\" class=\"comment\">\r\n                    <span class=\"name\">{{comment.author}}</span>\r\n                    &nbsp;{{comment.contents}}\r\n                    <span class=\"text-muted\">{{comment.date}}</span>\r\n                    <button class=\"delete float-right\" *ngIf=\"user && comment.author==user.user_nick || isAdmin\"  (click)=\"delete_comment(i,j)\">X</button>\r\n                </div>\r\n                <form [formGroup]=\"comment_writeForm\" (ngSubmit)=\"comment_send(i)\">\r\n                    <input class=\"comment-textarea\" formControlName=\"contents\" type=\"textarea\" placeholder=\"댓글을 입력해주세요.\">\r\n                    <button type=\"submit\"> <span class=\"fas fa-comment\"></span></button>\r\n                </form>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n\r\n<ng-template #content let-modal>\r\n  <div class=\"modal-header\">\r\n    <h4 class=\"modal-title\" id=\"modal-basic-title\">글쓰기</h4>\r\n    <button type=\"button\" class=\"close\" aria-label=\"Close\" (click)=\"close()\">\r\n        <span aria-hidden=\"true\">&times;</span>\r\n    </button>\r\n  </div>\r\n  <form [formGroup]=\"writeForm\" (ngSubmit)=\"send()\">\r\n  <div class=\"modal-body\">\r\n      <textarea id=\"contents\" formControlName=\"contents\" class=\"write-area\" placeholder=\"나누고픈 의견을 자유롭게 써주세요.\"></textarea>\r\n    \r\n  </div>\r\n  <div class=\"modal-footer\">\r\n    <button type=\"submit\" class=\"btn btn-outline-dark\">올리기</button>\r\n  </div>\r\n</form>\r\n</ng-template>"
+module.exports = "<link href=\"https://fonts.googleapis.com/css?family=Do+Hyeon|Nanum+Pen+Script\" rel=\"stylesheet\">\r\n\r\n<div class=\"container\" id=\"board-container\">\r\n    <div class=\"write-div\" *ngIf=\"is_auth\">\r\n        <button (click)=\"write(content)\" class=\"write-btn\"><i class=\"fas fa-pencil-alt\"></i> 글 쓰러 가기</button> \r\n    </div>\r\n\r\n    <div *ngFor=\"let post of small_posts; index as i\" class=\"post\">\r\n        <h5 class=\"nickname\">{{post.author}}</h5>\r\n        <span class=\"time\">&nbsp;{{post.date}}</span>\r\n        <button class=\"delete float-right\" *ngIf=\"user && post.author==user.user_nick || isAdmin\" (click)=\"delete_post(i)\">X</button>\r\n        <button class=\"delete float-right\" *ngIf=\"user && post.author==user.user_nick || isAdmin\" (click)=\"update_post(i, update)\"><span class=\"fas fa-pencil-alt\"></span></button>\r\n\r\n        <div class=\"post-contents\">{{post.contents}}</div>\r\n        <div class=\"comment-div\">\r\n            <a class=\"like-btn\" (click)=\"favorite(i)\">\r\n                <span *ngIf=\"!isFavorite[i]\" class=\"heart\" style=\"margin-right:20px;\">♡</span>\r\n                <span *ngIf=\"isFavorite[i]\" class=\"heart\" style=\"margin-right:20px;\">♥</span>\r\n                <span class=\"like-num\">{{post.fav_cnt}}</span>\r\n            </a>\r\n            <a class=\"toggle-comment\" (click)=\"collapsed(i)\" [attr.aria-expanded]=\"isCollapsed[i]\" aria-controls=\"collapseExample\">\r\n                <span  class=\"fa-comment\" [class.far]=\"isCollapsed[i]\" [class.fas]=\"!isCollapsed[i]\" style=\"margin-right:20px;\"></span>\r\n                <span class=\"comment-num\">{{post.comment.length}}</span>\r\n            </a>\r\n            <div class=\"comment-list\" [ngbCollapse]=\"isCollapsed[i]\">\r\n                <div *ngFor=\"let comment of post.show_comment; index as j\" class=\"comment\">\r\n                    <span class=\"name\">{{comment.author}}</span>\r\n                    &nbsp;{{comment.contents}}\r\n                    <span class=\"text-muted\">{{comment.date}}</span>\r\n                    <button class=\"delete float-right\" *ngIf=\"user && comment.author==user.user_nick || isAdmin\"  (click)=\"delete_comment(i,j)\">X</button>\r\n                </div>\r\n                <a *ngIf=\"post.more_comment\" (click)=\"more_comments(i)\">댓글 더 보기..</a>\r\n                <form [formGroup]=\"comment_writeForm\" (ngSubmit)=\"comment_send(i)\">\r\n                    <input class=\"comment-textarea\" formControlName=\"contents\" type=\"textarea\" placeholder=\"댓글을 입력해주세요.\">\r\n                    <button type=\"submit\" [disabled]=\"!comment_writeForm.valid\"> <span class=\"fas fa-comment\"></span></button>\r\n                </form>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n\r\n<ng-template #content let-modal>\r\n  <div class=\"modal-header\">\r\n    <h4 class=\"modal-title\" id=\"modal-basic-title\">글쓰기</h4>\r\n    <button type=\"button\" class=\"close\" aria-label=\"Close\" (click)=\"close()\">\r\n        <span aria-hidden=\"true\">&times;</span>\r\n    </button>\r\n  </div>\r\n  <form [formGroup]=\"writeForm\" (ngSubmit)=\"send()\">\r\n  <div class=\"modal-body\">\r\n      <textarea id=\"contents\" formControlName=\"contents\" class=\"write-area\" placeholder=\"나누고픈 의견을 자유롭게 써주세요.\"></textarea>\r\n    \r\n  </div>\r\n  <div class=\"modal-footer\">\r\n    <button type=\"submit\" [disabled]=\"!writeForm.valid\" class=\"btn btn-outline-dark\">올리기</button>\r\n  </div>\r\n</form>\r\n</ng-template>\r\n\r\n<ng-template #update let-modal>\r\n        <div class=\"modal-header\">\r\n          <h4 class=\"modal-title\" id=\"modal-basic-title\">글 수정하기</h4>\r\n          <button type=\"button\" class=\"close\" aria-label=\"Close\" (click)=\"close()\">\r\n              <span aria-hidden=\"true\">&times;</span>\r\n          </button>\r\n        </div>\r\n        <form [formGroup]=\"updateForm\" (ngSubmit)=\"save()\">\r\n        <div class=\"modal-body\">\r\n            <textarea id=\"contents\" formControlName=\"contents\" class=\"write-area\" ></textarea>\r\n            <input type=\"hidden\" formControlName=\"id\"> \r\n        </div>\r\n        <div class=\"modal-footer\">\r\n          <button type=\"submit\"  [disabled]=\"!updateForm.valid\" class=\"btn btn-outline-dark\">저장</button>\r\n        </div>\r\n      </form>\r\n      </ng-template>"
 
 /***/ }),
 
@@ -491,6 +491,11 @@ var BoardComponent = /** @class */ (function () {
         this.comment_writeForm = this.fb.group({
             contents: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required]
         });
+        this.updateForm = this.fb.group({
+            contents: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
+            id: ['']
+        });
+        this.isCollapsed = [];
         this.getList();
     }
     BoardComponent.prototype.ngOnInit = function () {
@@ -515,6 +520,22 @@ var BoardComponent = /** @class */ (function () {
         }, function (reason) {
         });
     };
+    BoardComponent.prototype.update_post = function (i, update) {
+        this.updateForm.setValue({
+            contents: this.posts[i].contents,
+            id: this.posts[i]._id.$oid
+        });
+        this.modalService.open(update, { ariaLabelledBy: 'modal-basic-title' }).result.then(function (result) {
+        }, function (reason) {
+        });
+    };
+    BoardComponent.prototype.save = function () {
+        var _this = this;
+        this.uniService.updatePost(this.updateForm.value).subscribe(function (response) {
+            _this.getList();
+        }, function (error) { return console.log('error', error); });
+        this.modalService.dismissAll();
+    };
     BoardComponent.prototype.collapsed = function (ind) {
         this.isCollapsed[ind] = !this.isCollapsed[ind];
         this.comment_writeForm.reset();
@@ -524,22 +545,33 @@ var BoardComponent = /** @class */ (function () {
     };
     BoardComponent.prototype.send = function () {
         var _this = this;
-        this.uniService.sendPost(this.writeForm.value).subscribe(function (response) {
-            _this.getList();
-        }, function (error) { return console.log('error', error); });
-        this.modalService.dismissAll();
+        if (this.writeForm.value.contents.length > 500) {
+            alert("최대 500자까지 작성할 수 있습니다.");
+        }
+        else {
+            this.uniService.sendPost(this.writeForm.value).subscribe(function (response) {
+                _this.getList();
+            }, function (error) { return console.log('error', error); });
+            this.modalService.dismissAll();
+        }
     };
     BoardComponent.prototype.comment_send = function (ind) {
         var _this = this;
-        this.uniService.sendComment(this.comment_writeForm.value, this.posts[ind]._id.$oid).subscribe(function (response) {
-            _this.getList();
-        }, function (error) { return console.log('error', error); });
+        if (this.is_auth) {
+            this.uniService.sendComment(this.comment_writeForm.value, this.posts[ind]._id.$oid).subscribe(function (response) {
+                _this.getList();
+            }, function (error) { return console.log('error', error); });
+        }
+        else {
+            alert("로그인이 필요합니다.");
+        }
+        this.comment_writeForm.reset();
     };
     BoardComponent.prototype.delete_comment = function (post_ind, comment_ind) {
         var _this = this;
         var postData = {
             post_id: this.posts[post_ind]._id.$oid,
-            comment_id: this.posts[post_ind].comment[comment_ind]._id.$oid
+            comment_id: this.posts[post_ind].comment[comment_ind].oid.$oid
         };
         this.uniService.deleteComment(postData).subscribe(function (response) {
             _this.getList();
@@ -570,14 +602,23 @@ var BoardComponent = /** @class */ (function () {
                 var post_len = _this.posts.length;
                 var comment_len;
                 _this.isFavorite = [];
-                _this.isCollapsed = [];
                 for (var i = 0; i < post_len; i++) {
                     comment_len = _this.posts[i].comment.length;
-                    _this.posts[i].date = _this.timeConverter(_this.posts[i].date.$date);
+                    _this.posts[i].comment.reverse();
+                    _this.posts[i].date = _this.timeConverter(_this.posts[i].date);
                     _this.isFavorite[i] = false;
-                    _this.isCollapsed[i] = true;
+                    if (_this.isCollapsed[i] == null)
+                        _this.isCollapsed[i] = true;
                     for (var j = 0; j < comment_len; j++) {
-                        _this.posts[i].comment[j].date = _this.timeConverter(_this.posts[i].comment[j].date.$date);
+                        _this.posts[i].comment[j].date = _this.timeConverter(_this.posts[i].comment[j].date);
+                    }
+                    _this.posts[i].show_comment = _this.posts[i].comment.slice(0, 8);
+                    var show_comment_len = _this.posts[i].show_comment.length;
+                    if (comment_len > show_comment_len) {
+                        _this.posts[i].more_comment = true;
+                    }
+                    else {
+                        _this.posts[i].more_comment = false;
                     }
                     if (_this.posts[i].fav) {
                         var fav_len = _this.posts[i].fav.length;
@@ -592,6 +633,18 @@ var BoardComponent = /** @class */ (function () {
                 _this.small_posts = _this.posts.slice(0, _this.maxPost);
             }, function (error) { return console.log('error', error); });
         }, function (error) { return console.log('이건 에러야 !!error', error); });
+    };
+    BoardComponent.prototype.more_comments = function (i) {
+        var show_comment_len = this.posts[i].show_comment.length;
+        var comment_len = this.posts[i].comment.length;
+        this.posts[i].show_comment = this.posts[i].comment.slice(0, show_comment_len + 5);
+        show_comment_len = this.posts[i].show_comment.length;
+        if (comment_len <= show_comment_len) {
+            this.posts[i].more_comment = false;
+        }
+        else {
+            this.posts[i].more_comment = true;
+        }
     };
     BoardComponent.prototype.favorite = function (ind) {
         var _this = this;
@@ -614,8 +667,16 @@ var BoardComponent = /** @class */ (function () {
         }
     };
     BoardComponent.prototype.timeConverter = function (UNIX_timestamp) {
+        UNIX_timestamp = UNIX_timestamp.replace(/[^0-9]/g, "");
+        var year = UNIX_timestamp.substring(0, 4);
+        var month = UNIX_timestamp.substring(4, 6) - 1;
+        var day = UNIX_timestamp.substring(6, 8);
+        var hour = UNIX_timestamp.substring(8, 10);
+        var min = UNIX_timestamp.substring(10, 12);
+        var sec = UNIX_timestamp.substring(12, 14);
+        var date = new Date(year, month, day, hour, min, sec);
         var now = Math.round(new Date().getTime());
-        var elapsed_time = (now - UNIX_timestamp) / 1000;
+        var elapsed_time = (now - date.getTime()) / 1000;
         if (elapsed_time >= 2592000) {
             elapsed_time /= 2592000;
             return Math.floor(elapsed_time) + "개월 전";
@@ -797,7 +858,7 @@ module.exports = "/*!\r\n * Start Bootstrap - Agency v5.0.1 (https://startbootst
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>\r\n<link href=\"https://fonts.googleapis.com/css?family=Do+Hyeon|Nanum+Pen+Script\" rel=\"stylesheet\">\r\n\r\n    <div class=\"container-fluid fixed-top\">\r\n      <div [@slideInOut]=\"animationState\" class=\"row\">\r\n        <div class=\"col-sm-12 text-center\">\r\n            <a class=\"navbar-brand banner\" routerLink=\"/\" (click)=\"clear()\">PooKle</a>\r\n           <!-- <a *ngIf=\"is_auth\" class=\"navbar-brand banner\" routerLink=\"/timeline\">PooKle</a>-->\r\n            \r\n        </div>\r\n      </div>\r\n      <div class=\"row text-center margin-top\">\r\n        <div class=\"col-sm-12\">\r\n            <form [formGroup]=\"searchForm\" (ngSubmit)=\"search()\">\r\n\r\n            <input type=\"text\"  formControlName=\"word\" class=\"searchBar\">\r\n            <button type=\"submit\" class=\"search-btn\"><i class=\"fas fa-search\"></i></button>\r\n            </form>\r\n        </div>\r\n      </div>\r\n      <div class=\"row text-center menu-bar\">\r\n        <div class=\"col-md-3\"></div>\r\n        <div class=\"col-sm-12 col-md-6\">\r\n            <a class=\"menu\" routerLink=\"/timeline\"><i class=\"fas fa-book\"></i>&nbsp;타임라인</a>\r\n            <a class=\"menu\" routerLink=\"/board\"><i class=\"fas fa-edit\"></i>&nbsp;게시판</a>\r\n            <a *ngIf=\"!is_auth\" class=\"menu\" routerLink=\"/user/sign-in\"><i class=\"fas fa-user\"></i>&nbsp;로그인</a>\r\n            <a *ngIf=\"is_auth\" class=\"menu\" routerLink=\"/user/my-page\"><i class=\"fas fa-cog\"></i>&nbsp;내정보</a>\r\n        </div>\r\n        <div class=\"col-md-3\"></div>\r\n      </div>\r\n    </div>\r\n\r\n"
+module.exports = "<link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>\r\n<link href=\"https://fonts.googleapis.com/css?family=Do+Hyeon|Nanum+Pen+Script\" rel=\"stylesheet\">\r\n\r\n    <div class=\"container-fluid fixed-top\">\r\n      <div [@slideInOut]=\"animationState\" class=\"row\">\r\n        <div class=\"col-sm-12 text-center\">\r\n            <a class=\"navbar-brand banner\" routerLink=\"/\" (click)=\"clear()\">PooKle</a>\r\n           <!-- <a *ngIf=\"is_auth\" class=\"navbar-brand banner\" routerLink=\"/timeline\">PooKle</a>-->\r\n            \r\n        </div>\r\n      </div>\r\n      <div class=\"row text-center margin-top\">\r\n        <div class=\"col-sm-12\">\r\n            <form [formGroup]=\"searchForm\" (ngSubmit)=\"search()\">\r\n\r\n            <input type=\"text\"  formControlName=\"word\" class=\"searchBar\">\r\n            <button type=\"submit\" [disabled]=\"!searchForm.valid\" class=\"search-btn\"><i class=\"fas fa-search\"></i></button>\r\n            </form>\r\n        </div>\r\n      </div>\r\n      <div class=\"row text-center menu-bar\">\r\n        <div class=\"col-md-3\"></div>\r\n        <div class=\"col-sm-12 col-md-6\">\r\n            <a class=\"menu\" routerLink=\"/timeline\" (click)=\"scroll_reset()\"><i class=\"fas fa-book\"></i>&nbsp;타임라인</a>\r\n            <a class=\"menu\" routerLink=\"/board\"><i class=\"fas fa-edit\"></i>&nbsp;게시판</a>\r\n            <a *ngIf=\"!is_auth\" class=\"menu\" routerLink=\"/user/sign-in\"><i class=\"fas fa-user\"></i>&nbsp;로그인</a>\r\n            <a *ngIf=\"is_auth\" class=\"menu\" routerLink=\"/user/my-page\"><i class=\"fas fa-cog\"></i>&nbsp;내정보</a>\r\n        </div>\r\n        <div class=\"col-md-3\"></div>\r\n      </div>\r\n    </div>\r\n\r\n"
 
 /***/ }),
 
@@ -859,6 +920,9 @@ var HeaderComponent = /** @class */ (function () {
         else {
             this.animationState = 'in';
         }
+    };
+    HeaderComponent.prototype.scroll_reset = function () {
+        window.scrollTo(0, 0);
     };
     HeaderComponent.prototype.search = function () {
         var word = this.searchForm.value.word;
@@ -1041,10 +1105,10 @@ var StartComponent = /** @class */ (function () {
         this.uniService = uniService;
         this.router = router;
         this.signUpForm = this.fb.group({
-            id: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
-            pw: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
-            pwc: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
-            email: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
+            id: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].compose([_angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')])],
+            pw: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].compose([_angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')])],
+            pwc: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].compose([_angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')])],
+            email: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].compose([_angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')])],
         });
     }
     StartComponent.prototype.ngOnInit = function () {
@@ -1155,7 +1219,7 @@ var StatsComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\r\n.loading{\r\n    \r\n    font-size:45px;\r\n    font-weight:bold;\r\n    font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';\r\n    \r\n    z-index: 100;\r\n    background-color:#313539;\r\n    width:100%;\r\n    height:1000px;\r\n    padding-top:100px;\r\n    text-align:center;\r\n    color:#fed136;\r\n    \r\n}\r\n\r\n.navbar{\r\n    color:#fed136;\r\n}\r\n\r\n.nav{\r\n    position: fixed;\r\n    left:0px;\r\n    top:80px;\r\n    margin-left:-20px;\r\n    padding-top:100px;\r\n    padding-left:10px;\r\n    display: block;\r\n    width:40%;\r\n    height:1000px;\r\n    background-color:#313539;\r\n    border-radius:15px;\r\n}\r\n\r\n.nav-link:hover{\r\n    background-color:#000000;\r\n}\r\n\r\n.nav-link{\r\n    display: block;\r\n    width:100%;\r\n    border:0px;\r\n    font-family: 'Do Hyeon', sans-serif;\r\n    background-color:#313539;\r\n    color:#fed136;\r\n    font-size:23px;\r\n\r\n}\r\n\r\n.nav-item, .navbar-nav{\r\n    width:100%;\r\n}\r\n\r\n.right-banner{\r\n    -webkit-writing-mode:tb-rl;\r\n        -ms-writing-mode:tb-rl;\r\n            writing-mode:tb-rl;\r\n}\r\n\r\n.pookle-font{\r\n\r\n    font-family: 'Righteous', cursive;\r\n    font-size:130px;\r\n    color:#888888;\r\n}\r\n\r\n@media (max-width: 2400px) {\r\n    .container {\r\n      width: 100%;\r\n    }\r\n    .post{\r\n        border-bottom:2px #BBBBBB solid;\r\n        padding-bottom : 20px;\r\n        margin-bottom:10px;\r\n        color:black;\r\n    }\r\n    #timeline-container{\r\n        margin-top:160px;\r\n        padding-top:5px;\r\n        border-radius:10px;\r\n        background-color:#313539;\r\n    }\r\n    .main{\r\n        background-color:white;\r\n        border-radius:10px;\r\n        padding-top:10px;\r\n    }\r\n    .admin_post{\r\n        border:1px solid #BBBBBB;\r\n        border-radius: 10px;\r\n        padding:10px;\r\n        margin:10px;\r\n        font-family: 'Do Hyeon', sans-serif;\r\n\r\n    }\r\n    .admin_title{\r\n        font-size:25px;\r\n        font-weight: bold;\r\n        margin-bottom:0px;\r\n    }\r\n    .admin_date{\r\n        font-size:25px;\r\n        font-weight: bold;\r\n    }\r\n\r\n    .admin_content{\r\n        padding:0 10px; \r\n        font-size:20px;\r\n\r\n    }\r\n    .more{\r\n        color:#999999;\r\n        background-color: transparent;\r\n        border:0px;\r\n    }\r\n    .more:hover{\r\n        text-decoration: underline;\r\n    }\r\n\r\n}\r\n\r\n@media (max-width: 576px) {\r\n    .container {\r\n      width: 100%;\r\n      \r\n    }\r\n    #timeline-container{\r\n        margin-top:90px;\r\n        background-color:#313539;\r\n        border-radius:0px;\r\n\r\n    }\r\n    .main{\r\n        padding-top:0px;\r\n        border-radius:0px;\r\n    }\r\n\r\n    \r\n}\r\n\r\n.link-btn{\r\n    display:block;\r\n    height:100%;\r\n    width:100%;\r\n    position: relative;;\r\n    top:0;\r\n    left:0;\r\n    text-decoration: none;\r\n}\r\n\r\n.link-btn:hover{\r\n    background-color:#DDDDDD;\r\n    transition: background-color 500ms linear;\r\n}\r\n\r\n.block{\r\n    display: block;\r\n}\r\n\r\n.align-right{\r\n    display: inline-block;\r\n    text-align:right;\r\n    position: relative;\r\n    left:70%;\r\n}\r\n\r\n.title{\r\n    display: block;\r\n    width: 100%; \r\n    color:black;\r\n    font-size:20px;\r\n    font-weight: bold;\r\n    overflow:hidden;\r\n    white-space:nowrap;\r\n    text-overflow:ellipsis;\r\n    -o-text-overflow: ellipsis;\r\n}\r\n\r\n.time{\r\n    font-size:12px;\r\n    color:gray;\r\n}\r\n\r\n.link{\r\n    color:green;\r\n}\r\n\r\n.like{\r\n    color:black;\r\n}\r\n\r\n.like-btn-div{\r\n    margin-right:50px;\r\n\r\n}\r\n\r\n.url-copy-btn, .like-num{\r\n    color:black;\r\n    font-size:20px;\r\n    margin-right:10px;\r\n}\r\n\r\n.like-btn{\r\n    color:#fed136;\r\n    font-size:25px;\r\n    font-weight: bold;\r\n    margin-right:10px;\r\n}\r\n\r\n.url-copy-btn:hover, .like-btn:hover{\r\n    color:rgb(35, 132, 170);\r\n}\r\n\r\n.write-div{\r\n    height:80px;\r\n    text-align:right;\r\n}\r\n\r\n.write-btn{\r\n    height:60px;\r\n    margin:0 auto;\r\n    padding:15px;\r\n    border:0px;\r\n    background-color:#212529;\r\n    color:#fed136;\r\n    font-family: 'Do Hyeon', sans-serif;\r\n    font-size:20px;\r\n    border-radius:5px;\r\n}\r\n\r\n.content{\r\n    display: inline-block; \r\n    width: 100%; \r\n    white-space: nowrap;\r\n    overflow: hidden; \r\n    text-overflow: ellipsis; \r\n    white-space: normal; \r\n    line-height: 1.2;\r\n    min-height:1.2em; \r\n    max-height: 3.6em; \r\n    text-align: left; \r\n    word-wrap: break-word; \r\n    display: -webkit-box; \r\n    -webkit-line-clamp: 3;\r\n    color:black;\r\n}\r\n\r\n.tag{\r\n    padding:5px;\r\n    margin-right:5px;\r\n    margin-bottom: 6px;\r\n    border:0px;\r\n    border-radius: 5px;\r\n    background-color:#DDDDDD;\r\n    font-family: 'Jua', sans-serif;\r\n    font-size:12px;\r\n}\r\n\r\n.popover_div{\r\n    display: inline;\r\n}\r\n\r\n.remove-btn{\r\n\r\n    height:30px;\r\n    margin:0 auto;\r\n    border:0px;\r\n    background-color:#212529;\r\n    color:#fed136;\r\n    font-family: 'Do Hyeon', sans-serif;\r\n    font-size:20px;\r\n    border-radius:5px;\r\n}\r\n\r\n.write-area{\r\n    width:100%;\r\n    height:200px;\r\n}\r\n\r\n.title-area{\r\n    width:90%;\r\n}\r\n\r\n.title-div{\r\n    padding-bottom:5px;\r\n}\r\n\r\n.search_result_p{\r\n    border-bottom:2px #BBBBBB solid;\r\n    padding-bottom:10px;\r\n    font-size:20px;\r\n    font-family: 'Do Hyeon', sans-serif;\r\n\r\n}\r\n\r\n.boder-bottom{\r\n    border-bottom:1px solid #DDDDDD;\r\n}\r\n\r\n.center-button{\r\n    padding-top:8px;\r\n    padding-bottom:8px;\r\n}"
+module.exports = "\r\n.loading{\r\n    \r\n    font-size:45px;\r\n    font-weight:bold;\r\n    font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';\r\n    \r\n    z-index: 100;\r\n    background-color:#313539;\r\n    width:100%;\r\n    height:1000px;\r\n    padding-top:100px;\r\n    text-align:center;\r\n    color:#fed136;\r\n    \r\n}\r\n\r\n.navbar{\r\n    color:#fed136;\r\n}\r\n\r\n.nav{\r\n    position: fixed;\r\n    left:0px;\r\n    top:80px;\r\n    margin-left:-20px;\r\n    padding-top:100px;\r\n    padding-left:10px;\r\n    display: block;\r\n    width:40%;\r\n    background-color:#313539;\r\n    border-radius:15px;\r\n}\r\n\r\n.nav-link:hover{\r\n    background-color:#000000;\r\n}\r\n\r\n.nav-link{\r\n    display: block;\r\n    width:100%;\r\n    border:0px;\r\n    font-family: 'Do Hyeon', sans-serif;\r\n    background-color:#313539;\r\n    color:#fed136;\r\n    font-size:23px;\r\n\r\n}\r\n\r\n.nav-item, .navbar-nav{\r\n    width:100%;\r\n}\r\n\r\n.right-banner{\r\n    -webkit-writing-mode:tb-rl;\r\n        -ms-writing-mode:tb-rl;\r\n            writing-mode:tb-rl;\r\n}\r\n\r\n.pookle-font{\r\n\r\n    font-family: 'Righteous', cursive;\r\n    font-size:130px;\r\n    color:#888888;\r\n}\r\n\r\n.admin_content{\r\n    width:100%;\r\n    display: block;\r\n}\r\n\r\n.container {\r\n      width: 100%;\r\n    }\r\n\r\n.post{\r\n        border-bottom:2px #BBBBBB solid;\r\n        padding-bottom : 20px;\r\n        margin-bottom:10px;\r\n        color:black;\r\n    }\r\n\r\n#timeline-container{\r\n        margin-top:160px;\r\n        padding-top:5px;\r\n        border-radius:10px;\r\n        background-color:#313539;\r\n        height:100%;\r\n\r\n    }\r\n\r\n.main{\r\n        background-color:white;\r\n        border-radius:10px;\r\n        padding-top:10px;\r\n    }\r\n\r\n.admin_post{\r\n        border:1px solid #BBBBBB;\r\n        border-radius: 10px;\r\n        padding:10px;\r\n        margin:10px;\r\n        font-family: 'Do Hyeon', sans-serif;\r\n\r\n    }\r\n\r\n.admin_title{\r\n        font-size:25px;\r\n        font-weight: bold;\r\n        margin-bottom:0px;\r\n    }\r\n\r\n.admin_date{\r\n        font-size:25px;\r\n        font-weight: bold;\r\n    }\r\n\r\n.admin_content{\r\n        padding:0 10px; \r\n        font-size:20px;\r\n\r\n    }\r\n\r\n.more{\r\n        color:#999999;\r\n        background-color: transparent;\r\n        border:0px;\r\n    }\r\n\r\n.more:hover{\r\n        text-decoration: underline;\r\n    }\r\n\r\n@media (max-width: 576px) {\r\n    .container {\r\n      width: 100%;\r\n      \r\n    }\r\n    #timeline-container{\r\n        margin-top:90px;\r\n        background-color:#313539;\r\n        border-radius:0px;\r\n\r\n    }\r\n    .main{\r\n        padding-top:0px;\r\n        border-radius:0px;\r\n    }\r\n\r\n    \r\n}\r\n\r\n.link-btn{\r\n    display:block;\r\n    height:100%;\r\n    width:100%;\r\n    position: relative;;\r\n    top:0;\r\n    left:0;\r\n    text-decoration: none;\r\n}\r\n\r\n.link-btn:hover{\r\n    background-color:#DDDDDD;\r\n    transition: background-color 500ms linear;\r\n}\r\n\r\n.block{\r\n    display: block;\r\n}\r\n\r\n.align-right{\r\n    display: inline-block;\r\n    text-align:right;\r\n    position: relative;\r\n    left:70%;\r\n}\r\n\r\n.title{\r\n    display: block;\r\n    width: 100%; \r\n    color:black;\r\n    font-size:20px;\r\n    font-weight: bold;\r\n    overflow:hidden;\r\n    white-space:nowrap;\r\n    text-overflow:ellipsis;\r\n    -o-text-overflow: ellipsis;\r\n}\r\n\r\n.time{\r\n    font-size:12px;\r\n    color:gray;\r\n}\r\n\r\n.link{\r\n    color:green;\r\n}\r\n\r\n.like{\r\n    color:black;\r\n}\r\n\r\n.like-btn-div{\r\n    margin-right:50px;\r\n\r\n}\r\n\r\n.url-copy-btn, .like-num{\r\n    color:black;\r\n    font-size:20px;\r\n    margin-right:10px;\r\n}\r\n\r\n.like-btn{\r\n    color:#fed136;\r\n    font-size:25px;\r\n    font-weight: bold;\r\n    margin-right:10px;\r\n}\r\n\r\n.url-copy-btn:hover, .like-btn:hover{\r\n    color:rgb(35, 132, 170);\r\n}\r\n\r\n.write-div{\r\n    height:80px;\r\n    text-align:right;\r\n}\r\n\r\n.write-btn{\r\n    height:60px;\r\n    margin:0 auto;\r\n    padding:15px;\r\n    border:0px;\r\n    background-color:#212529;\r\n    color:#fed136;\r\n    font-family: 'Do Hyeon', sans-serif;\r\n    font-size:20px;\r\n    border-radius:5px;\r\n}\r\n\r\n.content{\r\n    display: inline-block; \r\n    width: 100%; \r\n    white-space: nowrap;\r\n    overflow: hidden; \r\n    text-overflow: ellipsis; \r\n    white-space: normal; \r\n    line-height: 1.2;\r\n    min-height:1.2em; \r\n    max-height: 3.6em; \r\n    text-align: left; \r\n    word-wrap: break-word; \r\n    display: -webkit-box; \r\n    -webkit-line-clamp: 3;\r\n    color:black;\r\n}\r\n\r\n.heart{\r\n    color:palevioletred;\r\n    font-weight: bold;\r\n    font-size:23px;\r\n    font-family: 'Do Hyeon', sans-serif;\r\n}\r\n\r\n.tag{\r\n    padding:5px;\r\n    margin-right:5px;\r\n    margin-bottom: 6px;\r\n    border:0px;\r\n    border-radius: 5px;\r\n    background-color:#DDDDDD;\r\n    font-family: 'Jua', sans-serif;\r\n    font-size:12px;\r\n}\r\n\r\n.popover_div{\r\n    display: inline;\r\n}\r\n\r\n.remove-btn{\r\n\r\n    height:30px;\r\n    margin:0 auto;\r\n    border:0px;\r\n    background-color:#212529;\r\n    color:#fed136;\r\n    font-family: 'Do Hyeon', sans-serif;\r\n    font-size:20px;\r\n    border-radius:5px;\r\n}\r\n\r\n.write-area{\r\n    width:100%;\r\n    height:200px;\r\n}\r\n\r\n.title-area{\r\n    width:90%;\r\n}\r\n\r\n.title-div{\r\n    padding-bottom:5px;\r\n}\r\n\r\n.search_result_p{\r\n    border-bottom:2px #BBBBBB solid;\r\n    padding-bottom:10px;\r\n    font-size:20px;\r\n    font-family: 'Do Hyeon', sans-serif;\r\n\r\n}\r\n\r\n.boder-bottom{\r\n    border-bottom:1px solid #DDDDDD;\r\n}\r\n\r\n.center-button{\r\n    padding-top:8px;\r\n    padding-bottom:8px;\r\n}"
 
 /***/ }),
 
@@ -1166,7 +1230,7 @@ module.exports = "\r\n.loading{\r\n    \r\n    font-size:45px;\r\n    font-weigh
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"loading\" *ngIf=\"!posts\">\r\n    <br><br>\r\n    Loading....<br>\r\n    잠시만 기다려주세요.\r\n</div>\r\n<div class=\"container-fluid\" id=\"timeline-container\" *ngIf=\"posts\">\r\n\r\n\r\n    <div class=\"row\" *ngIf=\"!search_word\">\r\n\r\n        <div class=\"col-xl-2\"></div>\r\n        <div class=\"col-xl-8\">\r\n        <nav class=\"navbar navbar-expand-lg navbar-light\" >\r\n                <button  *ngIf=\"isCategory\" class=\"nav-link\"type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n                  <span>카테고리</span>\r\n                </button>\r\n              \r\n                <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\r\n                  <ul class=\"navbar-nav mr-auto\">\r\n                    <li *ngIf=\"isAdmin\" class=\"nav-item\">\r\n                        <button style=\"color:#fed136;\" (click)=\"write(content)\"class=\"nav-link \"><i class=\"fas fa-pencil-alt\"></i> 글 작성 하기</button> \r\n                    </li>\r\n                    <li class=\"nav-item active\">\r\n                        <button style=\"color:#fed136;\" class=\"nav-link active\" (click)=\"getList(0)\">전체 보기</button>\r\n                    </li>\r\n                    <li class=\"nav-item \">\r\n                        <button style=\"color:#fed136;\"class=\"nav-link \" (click)=\"getList(1)\">진로</button>\r\n                    </li>\r\n                    <li class=\"nav-item \">\r\n                        <button style=\"color:#fed136;\"class=\"nav-link \" (click)=\"getList(2)\">스터디&모임</button>\r\n                    </li>\r\n                    <li class=\"nav-item \">\r\n                        <button style=\"color:#fed136;\"class=\"nav-link \" (click)=\"getList(3)\">알바&구인</button>\r\n                    </li>\r\n                    <li class=\"nav-item \">\r\n                        <button style=\"color:#fed136;\"class=\"nav-link \" (click)=\"getList(4)\">행사&대외활동</button>\r\n                    </li>\r\n                    <li *ngIf=\"isAdmin\" class=\"nav-item\">\r\n                        <button style=\"color:#fed136;\" (click)=\"write(advertise)\"class=\"nav-link \"><i class=\"fas fa-pencil-alt\"></i> 광고 작성 하기</button> \r\n                    </li>\r\n                  </ul>\r\n                </div>\r\n              </nav>\r\n            </div>\r\n        </div>\r\n        <div class=\"col-xl-2\"></div>\r\n    <div class=\"row\">\r\n    <div class=\"col-xl-2\"></div>\r\n\r\n    <div class=\"main container col-xl-8\">\r\n        <div class=\"admin_post\" *ngIf=\"!search_word\">\r\n            <p class=\"admin_title\">{{admin_post.title}}</p>\r\n            <p class=\"time\">{{admin_post.date}}</p>\r\n            <div class=\"admin_content ellipsis-all\">\r\n                {{admin_post.post}}\r\n                <button *ngIf=\"!isFull\" class=\"more\" (click)='fullPost()'>...더 보기</button>\r\n                <button *ngIf=\"isFull\" class=\"more\" (click)='fullPost()'>접기</button>\r\n            </div>\r\n        </div>\r\n        <p class=\"search_result_p\" *ngIf=\"search_word\">\r\n                <strong>'{{search_word}}'</strong>로 검색한 결과입니다.\r\n        </p>\r\n\r\n\r\n    <div *ngFor=\"let post of small_posts; index as i\" class=\"post\">\r\n        <a *ngIf=\"post.url\"  target=\"_blank\" href=\"{{post.url}}\" class=\"link-btn\" >\r\n            <div class=\"block\"  *ngIf=\"post.title\">\r\n                <a  target=\"_blank\" href=\"{{post.url}}\" class=\"title\">{{post.title}}</a>\r\n            </div>\r\n\r\n            <span class=\"time\" *ngIf=\"!post.adv\">{{post.after_date}}</span>\r\n            <p class=\"content\" *ngIf=\"post.post || post.contents \">{{post.post}}</p>\r\n            <img *ngIf=\"post.adv\" src=\"{{post.img}}\"/>\r\n        </a>\r\n        <a *ngIf=\"!post.url\"class=\"link-btn\" >\r\n                <div class=\"block\" *ngIf=\"post.title\">\r\n                    <a href=\"{{post.url}}\"  target=\"_blank\" class=\"title\">{{post.title}}</a>\r\n                </div>\r\n    \r\n                <span class=\"time\" *ngIf=\"!post.adv\">{{post.date}}</span>\r\n                <p class=\"content\" *ngIf=\"post.post || post.contents \">{{post.post}}</p>\r\n                <img *ngIf=\"post.adv\" src=\"{{post.img}}\"/>\r\n            </a>\r\n        <a *ngIf=\"!post.admin&&!post.adv\" id=\"{{i}}\" (click)=\"favorite(i)\" class=\"like-btn-div\">\r\n            <span *ngIf=\"!isFavorite[i]\" class=\"like-btn\">☆</span>\r\n            <span *ngIf=\"isFavorite[i]\" class=\"like-btn\">★</span>\r\n            <span class=\"like-num\">{{post.fav_cnt}}</span></a>\r\n        <a *ngIf=\"!post.admin&&!post.adv\" (click)=\"copyMessage(post.url)\" placement=\"top\"\r\n                ngbPopover=\"복사되었습니다.\" popoverTitle=\"알림\" class=\"url-copy-btn\" ><i class=\"far fa-copy url-copy-btn\"></i></a>\r\n        <div *ngFor=\"let tag of post.tag; index as k\" class=\"popover_div\">\r\n            <div *ngIf=\"!post.admin&&!post.adv\" class=\"btn-group\" ngbDropdown role=\"group\" aria-label=\"Button group with nested dropdown\">\r\n                <button class=\"tag\" ngbDropdownToggle>{{tag}}</button>\r\n                <div class=\"dropdown-menu\" ngbDropdownMenu>\r\n                    <button *ngIf=\"is_auth\" (click)=\"addFavTag(i, k)\" class=\"dropdown-item boder-bottom\">자주 볼래요!</button>\r\n                    <button *ngIf=\"is_auth\" (click)=\"addBlackTag(i, k)\" class=\"dropdown-item boder-bottom center-button\">안 볼래요...</button>\r\n                    <button (click)=\"search_tag(tag)\" class=\"dropdown-item\">태그로 검색</button>\r\n                </div>\r\n              </div>\r\n        </div>\r\n        <button class=\"remove-btn float-right\" *ngIf=\"isAdmin\" (click)=\"removePost(i)\">제거</button>\r\n    </div>\r\n</div>\r\n<div class=\"col-xl-2 col-0\">\r\n        <div class=\"navbar navbar-expand-xl\">\r\n                <div class=\"collapse navbar-collapse right-banner\">\r\n                        <span class=\"pookle-font\">PooKle</span>\r\n                    </div>\r\n        </div>\r\n\r\n    </div>\r\n</div>\r\n</div>\r\n\r\n\r\n\r\n<ng-template #content let-modal>\r\n        <div class=\"modal-header\">\r\n          <h4 class=\"modal-title\" id=\"modal-basic-title\">글쓰기</h4>\r\n          <button type=\"button\" class=\"close\" aria-label=\"Close\" (click)=\"close()\">\r\n              <span aria-hidden=\"true\">&times;</span>\r\n          </button>\r\n        </div>\r\n        <form [formGroup]=\"writeForm\" (ngSubmit)=\"send()\">\r\n        <div class=\"modal-body\">\r\n            <div class=\"title-div\">제목 <input id=\"title\" formControlName=\"title\" class=\"title-area\"></div>\r\n            <textarea id=\"contents\" formControlName=\"contents\" class=\"write-area\" placeholder=\"내용을 입력해주세요\"></textarea>\r\n          \r\n        </div>\r\n        <div class=\"modal-footer\">\r\n          <button type=\"submit\" class=\"btn btn-outline-dark\">올리기</button>\r\n        </div>\r\n      </form>\r\n      </ng-template>\r\n\r\n      \r\n      <ng-template #advertise let-modal>\r\n        <div class=\"modal-header\">\r\n          <h4 class=\"modal-title\" id=\"modal-basic-title\">글쓰기</h4>\r\n          <button type=\"button\" class=\"close\" aria-label=\"Close\" (click)=\"close()\">\r\n              <span aria-hidden=\"true\">&times;</span>\r\n          </button>\r\n        </div>\r\n        <form [formGroup]=\"advertiseForm\" (ngSubmit)=\"adv_send(fileInput.files)\"enctype = \"multipart/form-data\">\r\n        <div class=\"modal-body\">\r\n            <div class=\"title-div\">제목 <input id=\"title\" formControlName=\"title\" class=\"title-area\"></div>\r\n            <div class=\"title-div\">링크 <input id=\"title\" formControlName=\"url\" class=\"title-area\"></div>\r\n            <textarea id=\"contents\" formControlName=\"contents\" class=\"write-area\" placeholder=\"내용을 입력해주세요\"></textarea>\r\n            <div class=\"title-div\">이미지 &nbsp;&nbsp;&nbsp;&nbsp;<input name=\"file\" type=\"file\" formControlName=\"img\" name=\"FileName\" #fileInput></div>\r\n            <div class=\"title_div\">만료기간 <input type=\"date\"  formControlName=\"date\"></div>\r\n        </div>\r\n        <div class=\"modal-footer\">\r\n          <button type=\"submit\" class=\"btn btn-outline-dark\">올리기</button>\r\n        </div>\r\n      </form>\r\n      </ng-template>\r\n"
+module.exports = "<div class=\"loading\" *ngIf=\"!posts\">\r\n    <br><br>\r\n    Loading....<br>\r\n    잠시만 기다려주세요.\r\n</div>\r\n<div class=\"container-fluid\" id=\"timeline-container\" *ngIf=\"posts\">\r\n\r\n\r\n    <div class=\"row\" *ngIf=\"!search_word\">\r\n\r\n        <div class=\"col-xl-2\"></div>\r\n        <div class=\"col-xl-8\">\r\n        <nav class=\"navbar navbar-expand-lg navbar-light\" >\r\n                <button  *ngIf=\"isCategory\" class=\"nav-link\"type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n                  <span>카테고리</span>\r\n                </button>\r\n              \r\n                <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\r\n                  <ul class=\"navbar-nav mr-auto\">\r\n                    <li *ngIf=\"isAdmin\" class=\"nav-item\">\r\n                        <button style=\"color:#fed136;\" (click)=\"write(content)\"class=\"nav-link \"><i class=\"fas fa-pencil-alt\"></i> 글 작성 하기</button> \r\n                    </li>\r\n                    <li class=\"nav-item active\">\r\n                        <button style=\"color:#fed136;\" class=\"nav-link active\" (click)=\"getList(0)\">전체 보기</button>\r\n                    </li>\r\n                    <li class=\"nav-item \">\r\n                        <button style=\"color:#fed136;\"class=\"nav-link \" (click)=\"getList(1)\">진로</button>\r\n                    </li>\r\n                    <li class=\"nav-item \">\r\n                        <button style=\"color:#fed136;\"class=\"nav-link \" (click)=\"getList(2)\">스터디&모임</button>\r\n                    </li>\r\n                    <li class=\"nav-item \">\r\n                        <button style=\"color:#fed136;\"class=\"nav-link \" (click)=\"getList(3)\">알바&구인</button>\r\n                    </li>\r\n                    <li class=\"nav-item \">\r\n                        <button style=\"color:#fed136;\"class=\"nav-link \" (click)=\"getList(4)\">행사&대외활동</button>\r\n                    </li>\r\n                    <li *ngIf=\"isAdmin\" class=\"nav-item\">\r\n                        <button style=\"color:#fed136;\" (click)=\"write(advertise)\"class=\"nav-link \"><i class=\"fas fa-pencil-alt\"></i> 광고 작성 하기</button> \r\n                    </li>\r\n                  </ul>\r\n                </div>\r\n              </nav>\r\n            </div>\r\n        </div>\r\n        <div class=\"col-xl-2\"></div>\r\n    <div class=\"row\">\r\n    <div class=\"col-xl-2\"></div>\r\n    <div class=\"main container col-xl-8\">\r\n        <div class=\"admin_post\" *ngIf=\"!search_word\">\r\n            <p class=\"admin_title\">{{admin_post.title}}</p>\r\n            <p class=\"time\">{{admin_post.date}}</p>\r\n            <div class=\"admin_content \">\r\n                {{admin_post.post}}\r\n                <button *ngIf=\"!isFull && !short_post\" class=\"more\" (click)='fullPost()'>...더 보기</button>\r\n                <button *ngIf=\"isFull && !short_post\" class=\"more\" (click)='fullPost()'>접기</button>\r\n            </div>\r\n        </div>\r\n        <p class=\"search_result_p\" *ngIf=\"search_word\">\r\n                <strong>'{{search_word}}'</strong>로 검색한 결과입니다. (총 {{search_cnt}}개)\r\n        </p>\r\n\r\n        <div>\r\n\r\n        </div>\r\n\r\n    <div *ngFor=\"let post of small_posts; index as i\" class=\"post\">\r\n        <a *ngIf=\"post.url\"  target=\"_blank\" href=\"{{post.url}}\" (click)=\"addView(i)\" class=\"link-btn\" >\r\n            <div class=\"block\"  *ngIf=\"post.title\">\r\n                <a  target=\"_blank\" href=\"{{post.url}}\" class=\"title\">{{post.title}}</a>\r\n            </div>\r\n\r\n            <span class=\"time\" *ngIf=\"!post.adv\">{{post.after_date}}</span>\r\n            <p class=\"content\" *ngIf=\"post.post || post.contents \">{{post.post}}</p>\r\n            <img *ngIf=\"post.adv\" src=\"{{post.img}}\"/>\r\n        </a>\r\n        <a *ngIf=\"!post.url\"class=\"link-btn\"  >\r\n                <div class=\"block\" *ngIf=\"post.title\">\r\n                    <a href=\"{{post.url}}\" (click)=\"addView(i)\" target=\"_blank\" class=\"title\">{{post.title}}</a>\r\n                </div>\r\n    \r\n                <span class=\"time\" *ngIf=\"!post.adv\">{{post.date}}</span>\r\n                <p class=\"content\" *ngIf=\"post.post || post.contents \">{{post.post}}</p>\r\n                <img *ngIf=\"post.adv\" src=\"{{post.img}}\"/>\r\n            </a>\r\n        <a *ngIf=\"!post.admin&&!post.adv\" id=\"{{i}}\" (click)=\"favorite(i)\" class=\"like-btn-div\">\r\n            <span *ngIf=\"!isFavorite[i]\" class=\"heart\" style=\"margin-right:20px;\">♡</span>\r\n            <span *ngIf=\"isFavorite[i]\" class=\"heart\" style=\"margin-right:20px;\">♥</span>\r\n            <span class=\"like-num\">{{post.fav_cnt}}</span></a>\r\n        <a *ngIf=\"!post.admin&&!post.adv\" (click)=\"copyMessage(post.url)\" placement=\"top\"\r\n                ngbPopover=\"복사되었습니다.\" popoverTitle=\"알림\" class=\"url-copy-btn\" ><i class=\"far fa-copy url-copy-btn\"></i></a>\r\n        <div *ngFor=\"let tag of post.tag; index as k\" class=\"popover_div\">\r\n            <div *ngIf=\"!post.admin&&!post.adv\" class=\"btn-group\" ngbDropdown role=\"group\" aria-label=\"Button group with nested dropdown\">\r\n                <button class=\"tag\" ngbDropdownToggle>{{tag}}</button>\r\n                <div class=\"dropdown-menu\" ngbDropdownMenu>\r\n                    <button *ngIf=\"is_auth\" (click)=\"addFavTag(i, k)\" class=\"dropdown-item boder-bottom\">자주 볼래요!</button>\r\n                    <button *ngIf=\"is_auth\" (click)=\"addBlackTag(i, k)\" class=\"dropdown-item boder-bottom center-button\">안 볼래요...</button>\r\n                    <button (click)=\"search_tag(tag)\" class=\"dropdown-item\">태그로 검색</button>\r\n                </div>\r\n              </div>\r\n        </div>\r\n        <button class=\"remove-btn float-right\" *ngIf=\"isAdmin\" (click)=\"removePost(i)\">제거</button>\r\n    </div>\r\n</div>\r\n<div class=\"col-xl-2 col-0\">\r\n        <div class=\"navbar navbar-expand-xl\">\r\n                <div class=\"collapse navbar-collapse right-banner\">\r\n                        <span class=\"pookle-font\">PooKle</span>\r\n                    </div>\r\n        </div>\r\n\r\n    </div>\r\n</div>\r\n</div>\r\n\r\n\r\n\r\n<ng-template #content let-modal>\r\n        <div class=\"modal-header\">\r\n          <h4 class=\"modal-title\" id=\"modal-basic-title\">글쓰기</h4>\r\n          <button type=\"button\" class=\"close\" aria-label=\"Close\" (click)=\"close()\">\r\n              <span aria-hidden=\"true\">&times;</span>\r\n          </button>\r\n        </div>\r\n        <form [formGroup]=\"writeForm\" (ngSubmit)=\"send()\">\r\n        <div class=\"modal-body\">\r\n            <div class=\"title-div\">제목 <input id=\"title\" formControlName=\"title\" class=\"title-area\"></div>\r\n            <textarea id=\"contents\" formControlName=\"contents\" class=\"write-area\" placeholder=\"내용을 입력해주세요\"></textarea>\r\n          \r\n        </div>\r\n        <div class=\"modal-footer\">\r\n          <button type=\"submit\" [disabled]=\"!writeForm.valid\" class=\"btn btn-outline-dark\">올리기</button>\r\n        </div>\r\n      </form>\r\n      </ng-template>\r\n\r\n      \r\n      <ng-template #advertise let-modal>\r\n        <div class=\"modal-header\">\r\n          <h4 class=\"modal-title\" id=\"modal-basic-title\">글쓰기</h4>\r\n          <button type=\"button\" class=\"close\" aria-label=\"Close\" (click)=\"close()\">\r\n              <span aria-hidden=\"true\">&times;</span>\r\n          </button>\r\n        </div>\r\n        <form [formGroup]=\"advertiseForm\" (ngSubmit)=\"adv_send(fileInput.files)\"enctype = \"multipart/form-data\">\r\n        <div class=\"modal-body\">\r\n            <div class=\"title-div\">제목 <input id=\"title\" formControlName=\"title\" class=\"title-area\"></div>\r\n            <div class=\"title-div\">링크 <input id=\"title\" formControlName=\"url\" class=\"title-area\"></div>\r\n            <textarea id=\"contents\" formControlName=\"contents\" class=\"write-area\" placeholder=\"내용을 입력해주세요\"></textarea>\r\n            <div class=\"title-div\">이미지 &nbsp;&nbsp;&nbsp;&nbsp;<input name=\"file\" type=\"file\" formControlName=\"img\" name=\"FileName\" #fileInput></div>\r\n            <div class=\"title_div\">만료기간 <input type=\"date\"  formControlName=\"date\"></div>\r\n        </div>\r\n        <div class=\"modal-footer\">\r\n          <button type=\"submit\" [disabled]=\"!advertiseForm.valid\" class=\"btn btn-outline-dark\">올리기</button>\r\n        </div>\r\n      </form>\r\n      </ng-template>\r\n"
 
 /***/ }),
 
@@ -1209,6 +1273,7 @@ var TimelineComponent = /** @class */ (function () {
         this.router = router;
         this.isFull = false;
         this.maxPost = 20;
+        this.search_cnt = 0;
         this.isCollapsed = false;
         this.isCategory = true;
         this.writeForm = this.fb.group({
@@ -1242,7 +1307,7 @@ var TimelineComponent = /** @class */ (function () {
     TimelineComponent.prototype.onScrollEvent = function ($event) {
         var pageHeight = document.documentElement.offsetHeight;
         var windowHeight = window.innerHeight;
-        if (window.pageYOffset + windowHeight >= pageHeight) {
+        if (window.pageYOffset + windowHeight >= pageHeight - 300) {
             this.maxPost += 5;
             this.small_posts = this.posts.slice(0, this.maxPost + 5);
         }
@@ -1351,8 +1416,11 @@ var TimelineComponent = /** @class */ (function () {
     TimelineComponent.prototype.removePost = function (ind) {
         var _this = this;
         if (this.isAdmin) {
-            var id = this.posts[ind]._id;
-            this.uniService.removePost(id).subscribe(function (response) {
+            var postData = {
+                id: this.posts[ind]._id.$oid,
+                title: this.posts[ind].title
+            };
+            this.uniService.removePost(postData).subscribe(function (response) {
                 _this.getList();
             }, function (error) { return console.log('error', error); });
         }
@@ -1374,6 +1442,12 @@ var TimelineComponent = /** @class */ (function () {
                 _this.admin_post = JSON.parse(response);
                 _this.admin_post.isFull = true;
                 _this.admin_post.date = _this.timeConverter(_this.admin_post.date);
+                if (_this.admin_post.post.length < 50) {
+                    _this.short_post = true;
+                }
+                else {
+                    _this.short_post = false;
+                }
                 if (_this.admin_post.post.length > 50 && !_this.isFull) {
                     if (_this.isCategory) {
                         _this.admin_post.post = _this.admin_post.post.slice(0, 35);
@@ -1415,7 +1489,9 @@ var TimelineComponent = /** @class */ (function () {
                 var len = _this.posts.length;
                 _this.isFavorite = [];
                 for (var i = 0; i < len; i++) {
-                    if (_this.posts[i].post == 0) {
+                    if (_this.posts[i].fin_date)
+                        _this.posts[i].adv = true;
+                    if (_this.posts[i].post == "0" && _this.posts[i].post != "") {
                         _this.posts[i].post = "[System]해당 사이트 로그인 후에 열람가능합니다.";
                     }
                     else if (_this.posts[i].post == 1 || _this.posts[i].post == "") {
@@ -1467,8 +1543,15 @@ var TimelineComponent = /** @class */ (function () {
         this.uniService.search(this.postData).subscribe(function (response) {
             _this.posts = JSON.parse(response);
             var len = _this.posts.length;
+            _this.search_cnt = _this.posts.length;
             _this.isFavorite = [];
             for (var i = 0; i < len; i++) {
+                if (_this.posts[i].post == "0" && _this.posts[i].post != "") {
+                    _this.posts[i].post = "[System]해당 사이트 로그인 후에 열람가능합니다.";
+                }
+                else if (_this.posts[i].post == 1 || _this.posts[i].post == "") {
+                    _this.posts[i].post = "[System]링크를 눌러서 확인해보세요!";
+                }
                 _this.posts[i].date = _this.timeConverter(_this.posts[i].date);
                 _this.isFavorite[i] = false;
                 if (_this.posts[i].fav) {
@@ -1481,6 +1564,16 @@ var TimelineComponent = /** @class */ (function () {
                 }
             }
             _this.small_posts = _this.posts.slice(0, _this.maxPost);
+        }, function (error) { return console.log('error', error); });
+    };
+    TimelineComponent.prototype.addView = function (i) {
+        var _this = this;
+        var postData = {
+            id: this.posts[i]._id.$oid,
+            title: this.posts[i].title
+        };
+        this.uniService.addView(postData).subscribe(function (response) {
+            console.log(_this.posts[i].view);
         }, function (error) { return console.log('error', error); });
     };
     /*var a = new Date(UNIX_timestamp);
@@ -1655,9 +1748,9 @@ var UniService = /** @class */ (function () {
             user_id: 'asdf',
         };
         //url = "http://121.145.54.15:5000"
-        //url = "http://127.0.0.1:5000"
-        this.url = "http://13.209.244.127:5000";
+        this.url = "http://127.0.0.1:5000";
     }
+    //url = "http://13.209.244.127:5000"
     UniService.prototype.registerNewUser = function (userData) {
         return this.http.post(this.url + '/users', userData);
         //return this.http.post('http://123.142.171.25:5000/users', userData, httpOptions)
@@ -1739,8 +1832,11 @@ var UniService = /** @class */ (function () {
         return this.http.put(this.url + '/user/black-tag', tag);
         // 삭제. delete메서드를 쓰고싶었으나 delete는 body를 담을 수 없으므로 put으로 대체.
     };
-    UniService.prototype.removePost = function (id) {
-        return this.http.put(this.url + '/timeline', id);
+    UniService.prototype.removePost = function (postData) {
+        return this.http.put(this.url + '/timeline', postData);
+    };
+    UniService.prototype.addView = function (postData) {
+        return this.http.put(this.url + '/timeline/view', postData);
     };
     // 게시판
     UniService.prototype.getBoardList = function () {
@@ -1753,11 +1849,7 @@ var UniService = /** @class */ (function () {
         return this.http.delete(this.url + '/board?id=' + id);
     };
     UniService.prototype.updatePost = function (postData) {
-        var postData_ = {
-            type: 'update',
-            post_id: postData.post_id,
-        };
-        return this.http.put(this.url + '/board', postData_);
+        return this.http.put(this.url + '/board', postData);
     };
     UniService.prototype.sendComment = function (postData, post_id) {
         var postData_ = {
@@ -1895,7 +1987,7 @@ var FindAccountComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\r\n  .container{\r\n    width:576px;\r\n    background-color:white;\r\n    height:500px;\r\n  }\r\n  .top-margin{\r\n    margin-top:150px;\r\n    padding-top:40px;\r\n  }\r\n  @media (max-width: 576px) {\r\n\r\n  .container{\r\n    width:100%;\r\n    background-color:white;\r\n    height:500px;\r\n  }\r\n  .top-margin{\r\n    margin-top:90px;\r\n    padding-top:20px;\r\n  }\r\n}\r\n  .sign-in, .sign-up{\r\n  padding:10px;\r\n  margin:5px;\r\n  border-radius:5px;\r\n\r\n}\r\n  .question {\r\n  margin-bottom:10px;\r\n  width:100%;\r\n  height:30px;\r\n}\r\n  .tab-title{\r\n  font-weight:bold;\r\n  font-size:21px;\r\n}\r\n\r\n\r\n"
+module.exports = "\r\n  .container{\r\n    width:576px;\r\n    background-color:white;\r\n    height:500px;\r\n    border-radius: 10px;\r\n  }\r\n  .top-margin{\r\n    margin-top:150px;\r\n    padding-top:40px;\r\n  }\r\n  @media (max-width: 576px) {\r\n\r\n  .container{\r\n    width:100%;\r\n    background-color:white;\r\n    height:500px;\r\n  }\r\n  .top-margin{\r\n    margin-top:90px;\r\n    padding-top:20px;\r\n  }\r\n}\r\n  .sign-in, .sign-up{\r\n  padding:10px;\r\n  margin:5px;\r\n  border-radius:5px;\r\n\r\n}\r\n  .question {\r\n  margin-bottom:10px;\r\n  width:100%;\r\n  height:30px;\r\n}\r\n  .tab-title{\r\n  font-weight:bold;\r\n  font-size:21px;\r\n}\r\n\r\n\r\n"
 
 /***/ }),
 
@@ -1906,7 +1998,7 @@ module.exports = "\r\n  .container{\r\n    width:576px;\r\n    background-color:
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\r\n<div class=\"container top-margin\">\r\n\r\n  <ngb-tabset>\r\n    <ngb-tab >\r\n      <ng-template class=\"tab-title\"  ngbTabTitle><b (click)=\"clear()\">로그인</b></ng-template>\r\n      <ng-template ngbTabContent>\r\n        <div class=\"row\">\r\n          <div class=\"col-sm sign-in\">\r\n            <form  [formGroup]=\"signInForm\" (ngSubmit)=\"signIn()\">\r\n              <div class=\"form-group\">\r\n                <span>계정 : </span> \r\n                <input type=\"text\" width=\"80px\" class=\"form-control\" formControlName=\"user_id\">\r\n                </div>\r\n                <div class=\"form-group\">\r\n                  <span>비밀 번호 : </span> \r\n                  <input type=\"password\" width=\"80px\" class=\"form-control\" formControlName=\"user_pw\">\r\n                </div>\r\n                <button type=\"submit\" class=\"btn btn-secondary\">로그인</button><br>  \r\n                <a class=\"text-muted small\" (click)=\"open(content)\">계정이나 비밀번호를 잊으셨나요?</a>        \r\n              </form>\r\n          </div>\r\n        </div>\r\n      </ng-template>\r\n    </ngb-tab>\r\n    <ngb-tab>\r\n      <ng-template class=\"tab-title\"  ngbTabTitle><b (click)=\"clear()\">회원가입</b></ng-template>\r\n      <ng-template ngbTabContent>\r\n        <div class=\"col-sm sign-up\">\r\n            <form  [formGroup]=\"signUpForm\" (ngSubmit)=\"registerNewUser()\">\r\n              <div class=\"form-group\">\r\n                <span>계정 : </span> \r\n                <input type=\"text\" width=\"80px\" class=\"form-control\" formControlName=\"user_id\">\r\n              </div>\r\n              <div class=\"form-group\">\r\n                <span>비밀 번호 : </span> \r\n                <input type=\"password\" width=\"80px\" class=\"form-control\" formControlName=\"user_pw\">\r\n              </div>\r\n              <div class=\"form-group\">\r\n                  <span>비밀 번호 확인 : </span> \r\n                  <input type=\"password\" width=\"80px\" class=\"form-control\" formControlName=\"user_pwc\">\r\n              </div>\r\n              <div class=\"form-group\">\r\n                <label class=\"control-label\" for=\"signupPasswordagain\">Password question</label><br>            \r\n                <select class=\"question\" name=\"question\" formControlName=\"user_que\">\r\n                    <option value=\"\">질문을 선택해주세요</option>\r\n                    <option value=\"1\">나의 학과는?</option>\r\n                    <option value=\"2\">나의 어머니 성함은?</option>\r\n                    <option value=\"3\">나의 고향은?</option>\r\n                    <option value=\"4\">나의 취미는?</option>\r\n                    <option value=\"5\">나의 첫사랑은?</option>\r\n                    <option value=\"6\">나의 아버지 성함은?</option>\r\n                    <option value=\"7\">나의 라임오렌지 나무</option>\r\n                </select>\r\n                <input id=\"signupPassworquestion\" type=\"text\" maxlength=\"25\" class=\"form-control\" formControlName=\"user_ans\">\r\n                </div>\r\n              <button type=\"submit\" class=\"btn btn-secondary\">가입</button>          \r\n            </form>\r\n          </div>\r\n      </ng-template>\r\n    </ngb-tab>\r\n  </ngb-tabset>\r\n \r\n\r\n      </div>\r\n      \r\n      \r\n\r\n\r\n      <ng-template #content let-modal>\r\n\r\n            <div class=\"modal-header\">\r\n              <h4 class=\"modal-title\" id=\"modal-basic-title\">암호를 까먹었나요?</h4>\r\n              <button type=\"button\" class=\"close\" aria-label=\"Close\" (click)=\"modal.dismiss('Cross click')\">\r\n                <span aria-hidden=\"true\">&times;</span>\r\n              </button>\r\n            </div>\r\n            <find-account [activePane]=\"display_grade ? display_grade2 ? display_grade3 ? 'left' : 'center' : 'right' : 'finish'\">\r\n                <div class=\"modal-body\" leftPane>\r\n                  <form [formGroup]=\"checkAccountForm\" (ngSubmit)=\"checkAccount()\">\r\n                    <div class=\"form-group\">\r\n                      <label>계정을 입력해주세요.</label>\r\n                      <div class=\"input-group\">\r\n                        <input formControlName=\"user_id\" class=\"form-control\">\r\n                      </div>\r\n                    </div>\r\n                    <button type=\"submit\" class=\"btn btn-outline-dark\" >확인</button>\r\n\r\n                  </form>\r\n                </div>\r\n                <div class=\"modal-body\" centerPane>\r\n                    <form [formGroup]=\"checkQuestionForm\" (ngSubmit)=\"checkQuestion()\">\r\n                      <div class=\"form-group\">\r\n                        <label>{{que}}</label>\r\n                        <div class=\"input-group\">\r\n                          <input formControlName=\"user_ans\" class=\"form-control\">\r\n                        </div>\r\n                      </div>\r\n                      <button type=\"submit\" class=\"btn btn-outline-dark\" >확인</button>\r\n                    </form>\r\n                  </div>\r\n                  <div class=\"modal-body\" rightPane>\r\n                      <form [formGroup]=\"resetPasswdForm\" (ngSubmit)=\"resetPasswd()\">\r\n                        <div class=\"form-group\">\r\n                          <label>새로운 비밀번호를 입력하세요.</label>\r\n                          <div class=\"input-group\">\r\n                            <input formControlName=\"pw\" type=\"password\" class=\"form-control\">\r\n                          </div>\r\n                          <br>\r\n                          <label>다시 한 번 더!!</label>\r\n                          <div class=\"input-group\">\r\n                            <input formControlName=\"pwc\" type=\"password\" class=\"form-control\">\r\n                          </div>\r\n                        </div>\r\n                        <button type=\"submit\" class=\"btn btn-outline-dark\" >확인</button>\r\n                      </form>\r\n                    </div>\r\n                    <div class=\"modal-body\" finishPane>\r\n                      <h3 style=\"font-weight:bold;\">비밀번호가 변경되었습니다!</h3>\r\n                    </div>\r\n            </find-account>\r\n\r\n            <div class=\"modal-footer\">\r\n            </div>\r\n\r\n\r\n        </ng-template>\r\n\r\n        \r\n\r\n        "
+module.exports = "\r\n<div class=\"container top-margin\">\r\n\r\n  <ngb-tabset>\r\n    <ngb-tab >\r\n      <ng-template class=\"tab-title\"  ngbTabTitle><b (click)=\"clear()\">로그인</b></ng-template>\r\n      <ng-template ngbTabContent>\r\n        <div class=\"row\">\r\n          <div class=\"col-sm sign-in\">\r\n            <form  [formGroup]=\"signInForm\" (ngSubmit)=\"signIn()\">\r\n              <div class=\"form-group\">\r\n                <span>계정 : </span> \r\n                <input type=\"text\" width=\"80px\" class=\"form-control\" formControlName=\"user_id\">\r\n                </div>\r\n                <div class=\"form-group\">\r\n                  <span>비밀 번호 : </span> \r\n                  <input type=\"password\" width=\"80px\" class=\"form-control\" formControlName=\"user_pw\">\r\n                </div>\r\n                <button type=\"submit\" class=\"btn btn-secondary\" [disabled]=\"!signInForm.valid\">로그인</button><br>  \r\n                <a class=\"text-muted small\" (click)=\"open(content)\">계정이나 비밀번호를 잊으셨나요?</a>        \r\n              </form>\r\n          </div>\r\n        </div>\r\n      </ng-template>\r\n    </ngb-tab>\r\n    <ngb-tab>\r\n      <ng-template class=\"tab-title\"  ngbTabTitle><b (click)=\"clear()\">회원가입</b></ng-template>\r\n      <ng-template ngbTabContent>\r\n        <div class=\"col-sm sign-up\">\r\n            <form  [formGroup]=\"signUpForm\" (ngSubmit)=\"registerNewUser()\">\r\n              <div class=\"form-group\">\r\n                <span>계정 : </span> \r\n                <input type=\"text\" width=\"80px\" class=\"form-control\" formControlName=\"user_id\">\r\n              </div>\r\n              <div class=\"form-group\">\r\n                <span>비밀 번호 : </span> \r\n                <input type=\"password\" width=\"80px\" class=\"form-control\" formControlName=\"user_pw\">\r\n              </div>\r\n              <div class=\"form-group\">\r\n                  <span>비밀 번호 확인 : </span> \r\n                  <input type=\"password\" width=\"80px\" class=\"form-control\" formControlName=\"user_pwc\">\r\n              </div>\r\n              <div class=\"form-group\">\r\n                <label class=\"control-label\" for=\"signupPasswordagain\">Password question</label><br>            \r\n                <select class=\"question\" name=\"question\" formControlName=\"user_que\">\r\n                    <option value=\"\">질문을 선택해주세요</option>\r\n                    <option value=\"1\">나의 학과는?</option>\r\n                    <option value=\"2\">나의 어머니 성함은?</option>\r\n                    <option value=\"3\">나의 고향은?</option>\r\n                    <option value=\"4\">나의 취미는?</option>\r\n                    <option value=\"5\">나의 첫사랑은?</option>\r\n                    <option value=\"6\">나의 아버지 성함은?</option>\r\n                    <option value=\"7\">나의 라임오렌지 나무</option>\r\n                </select>\r\n                <input id=\"signupPassworquestion\" type=\"text\" maxlength=\"25\" class=\"form-control\" formControlName=\"user_ans\">\r\n                </div>\r\n              <button type=\"submit\" class=\"btn btn-secondary\" [disabled]=\"!signUpForm.valid\">가입</button>          \r\n            </form>\r\n          </div>\r\n      </ng-template>\r\n    </ngb-tab>\r\n  </ngb-tabset>\r\n \r\n\r\n      </div>\r\n      \r\n      \r\n\r\n\r\n      <ng-template #content let-modal>\r\n\r\n            <div class=\"modal-header\">\r\n              <h4 class=\"modal-title\" id=\"modal-basic-title\">암호를 까먹었나요?</h4>\r\n              <button type=\"button\" class=\"close\" aria-label=\"Close\" (click)=\"close()\">\r\n                <span aria-hidden=\"true\">&times;</span>\r\n              </button>\r\n            </div>\r\n            <find-account [activePane]=\"display_grade ? display_grade2 ? display_grade3 ? 'left' : 'center' : 'right' : 'finish'\">\r\n                <div class=\"modal-body\" leftPane>\r\n                  <form [formGroup]=\"checkAccountForm\" (ngSubmit)=\"checkAccount()\">\r\n                    <div class=\"form-group\">\r\n                      <label>계정을 입력해주세요.</label>\r\n                      <div class=\"input-group\">\r\n                        <input formControlName=\"user_id\" class=\"form-control\">\r\n                      </div>\r\n                    </div>\r\n                    <button type=\"submit\" class=\"btn btn-outline-dark\" >확인</button>\r\n\r\n                  </form>\r\n                </div>\r\n                <div class=\"modal-body\" centerPane>\r\n                    <form [formGroup]=\"checkQuestionForm\" (ngSubmit)=\"checkQuestion()\">\r\n                      <div class=\"form-group\">\r\n                        <label>{{que}}</label>\r\n                        <div class=\"input-group\">\r\n                          <input formControlName=\"user_ans\" class=\"form-control\">\r\n                        </div>\r\n                      </div>\r\n                      <button type=\"submit\" class=\"btn btn-outline-dark\" >확인</button>\r\n                    </form>\r\n                  </div>\r\n                  <div class=\"modal-body\" rightPane>\r\n                      <form [formGroup]=\"resetPasswdForm\" (ngSubmit)=\"resetPasswd()\">\r\n                        <div class=\"form-group\">\r\n                          <label>새로운 비밀번호를 입력하세요.</label>\r\n                          <div class=\"input-group\">\r\n                            <input formControlName=\"pw\" type=\"password\" class=\"form-control\">\r\n                          </div>\r\n                          <br>\r\n                          <label>다시 한 번 더!!</label>\r\n                          <div class=\"input-group\">\r\n                            <input formControlName=\"pwc\" type=\"password\" class=\"form-control\">\r\n                          </div>\r\n                        </div>\r\n                        <button type=\"submit\" class=\"btn btn-outline-dark\" >확인</button>\r\n                      </form>\r\n                    </div>\r\n                    <div class=\"modal-body\" finishPane>\r\n                      <h3 style=\"font-weight:bold;\">비밀번호가 변경되었습니다!</h3>\r\n                    </div>\r\n            </find-account>\r\n\r\n            <div class=\"modal-footer\">\r\n            </div>\r\n\r\n\r\n        </ng-template>\r\n\r\n        \r\n\r\n        "
 
 /***/ }),
 
@@ -1952,13 +2044,13 @@ var LoginRegisterComponent = /** @class */ (function () {
         this.display_grade2 = true;
         this.display_grade3 = true;
         this.signInForm = this.fb.group({
-            user_id: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
-            user_pw: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
+            user_id: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].compose([_angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')])],
+            user_pw: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].compose([_angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')])],
         });
         this.signUpForm = this.fb.group({
-            user_id: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
-            user_pw: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
-            user_pwc: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
+            user_id: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].compose([_angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')])],
+            user_pw: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].compose([_angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')])],
+            user_pwc: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].compose([_angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')])],
             user_que: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required],
             user_ans: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required],
         });
@@ -2145,7 +2237,7 @@ var LoginRegisterComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".container{\r\n    font-family: 'Jua', sans-serif;\r\n    width:90%;\r\n    height:350px;\r\n    padding:20px;\r\n    margin:50px 10px 0px 40px;\r\n    background-color:white;\r\n    border:1px solid #BBBBBB;\r\n    border-radius: 5px;\r\n}\r\n.fav-box{\r\n    width:90%;\r\n    height:200px;\r\n    margin:0 auto;\r\n    padding:10px;\r\n    border:1px solid #AAAAAA;\r\n    overflow-y: auto;\r\n}\r\n.tag{\r\n    padding:5px;\r\n    margin-right:5px;\r\n    margin-bottom: 6px;\r\n    border:0px;\r\n    border-radius: 5px;\r\n    background-color:#DDDDDD;\r\n}\r\n.small-font{\r\n    font-size:15px;\r\n    color:#999999;\r\n}\r\n@media (max-width: 576px) {\r\n    .container{\r\n        width:100%;\r\n        margin:20px 0px;\r\n        padding:10px;\r\n\r\n    }\r\n    h2{\r\n        font-size:25px;\r\n    }\r\n    .small-font{\r\n        font-size:13px;\r\n    }\r\n}\r\n"
+module.exports = ".container{\r\n    font-family: 'Jua', sans-serif;\r\n    width:90%;\r\n    height:350px;\r\n    padding:20px;\r\n    margin:50px 10px 0px 40px;\r\n    background-color:white;\r\n    border:1px solid #BBBBBB;\r\n    border-radius: 5px;\r\n}\r\n.fav-box{\r\n    width:90%;\r\n    height:200px;\r\n    margin:0 auto;\r\n    padding:10px;\r\n    border:1px solid #AAAAAA;\r\n    overflow-y: auto;\r\n}\r\n.tag{\r\n    padding:5px;\r\n    margin-right:5px;\r\n    margin-bottom: 6px;\r\n    border:0px;\r\n    border-radius: 5px;\r\n    background-color:#DDDDDD;\r\n}\r\n.small-font{\r\n    font-size:15px;\r\n    color:#999999;\r\n}\r\n@media (max-width: 994px) {\r\n    .container{\r\n        width:100%;\r\n        margin:20px 0px;\r\n        padding:10px;\r\n\r\n    }\r\n    h2{\r\n        font-size:25px;\r\n    }\r\n    .small-font{\r\n        font-size:13px;\r\n    }\r\n}\r\n"
 
 /***/ }),
 
@@ -2156,7 +2248,7 @@ module.exports = ".container{\r\n    font-family: 'Jua', sans-serif;\r\n    widt
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container text-center\">\r\n  <h2>싫어하는 태그 - 블랙리스트</h2>\r\n  <p class=\"small-font\">해당 태그에 속한 글들은 전체보기에서 볼 수 없어요!<br>\r\n  태그를 누르면 삭제됩니다.</p>\r\n  <div class=\"fav-box\">\r\n    <button *ngFor=\"let tag of data; index as i\" (click)=\"removeTag(i)\" class=\"tag\">#{{tag}}</button>\r\n  </div>\r\n</div>"
+module.exports = "<div class=\"container text-center\">\r\n  <h2>싫어하는 태그 - 블랙리스트</h2>\r\n  <p class=\"small-font\">해당 태그에 속한 글들은 전체보기에서 볼 수 없어요!<br>\r\n  태그를 누르면 삭제됩니다.</p>\r\n  <div class=\"fav-box\">\r\n    <button *ngFor=\"let tag of data_; index as i\" (click)=\"removeTag(i)\" class=\"tag\">#{{tag}}</button>\r\n    <h4 *ngIf=\"is_empty\" style=\"margin-top:70px;\">등록된 태그가 없어요!</h4>\r\n  </div>\r\n</div>"
 
 /***/ }),
 
@@ -2186,21 +2278,37 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var BlacklistComponent = /** @class */ (function () {
     function BlacklistComponent(uniService) {
         this.uniService = uniService;
+        this.is_empty = true;
         this.refresh = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
     }
+    Object.defineProperty(BlacklistComponent.prototype, "data", {
+        set: function (value) {
+            if (value && value.length >= 1) {
+                this.data_ = value;
+                this.is_empty = false;
+            }
+            else {
+                this.data_ = [];
+                this.is_empty = true;
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
     BlacklistComponent.prototype.ngOnInit = function () {
     };
     BlacklistComponent.prototype.removeTag = function (index) {
         var _this = this;
-        var remove_tag = { 'black_tag': this.data[index] };
+        var remove_tag = { 'black_tag': this.data_[index] };
         this.uniService.removeBlackTag(remove_tag).subscribe(function (response) {
             _this.refresh.emit('');
         }, function (error) { return console.log('이건 에러야 !!error', error); });
     };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
-        __metadata("design:type", Object)
-    ], BlacklistComponent.prototype, "data", void 0);
+        __metadata("design:type", Object),
+        __metadata("design:paramtypes", [Object])
+    ], BlacklistComponent.prototype, "data", null);
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"])(),
         __metadata("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"])
@@ -2227,7 +2335,7 @@ var BlacklistComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".container{\r\n    font-family: 'Jua', sans-serif;\r\n    width:90%;\r\n    height:450px;\r\n    padding:20px;\r\n    margin:50px 40px 0px 10px;\r\n    border:1px solid #BBBBBB;\r\n    border-radius: 5px;\r\n    background-color:white;\r\n\r\n}\r\n.red{\r\n    color:red;\r\n    font-size:28px;\r\n}\r\n.fav-box{\r\n    width:90%;\r\n    height:300px;\r\n    margin:0 auto;\r\n    padding:10px 30px;\r\n    border:1px solid #AAAAAA;\r\n    border-bottom:0px;\r\n    overflow-y: auto;\r\n\r\n}\r\n.row{\r\n    border-bottom:1px solid #DDDDDD;\r\n    margin-bottom:10px;\r\n}\r\n.more-btn{\r\n    display: block;\r\n    width:90%;\r\n    margin:0 auto;\r\n    border:1px solid #AAAAAA;\r\n    background:white;\r\n}\r\n.small-font{\r\n    font-size:15px;\r\n    color:#999999;\r\n}\r\n.delete_btn{\r\n    height:100%;\r\n    border:0px;\r\n    background-color: transparent;\r\n}\r\n@media (max-width: 576px) {\r\n    .container{\r\n        width:100%;\r\n        margin:20px 0px;\r\n        padding:10px;\r\n\r\n    }\r\n    h2{\r\n        font-size:23px;\r\n    }\r\n}\r\n"
+module.exports = ".container{\r\n    font-family: 'Jua', sans-serif;\r\n    width:90%;\r\n    height:450px;\r\n    padding:20px;\r\n    margin:50px 40px 0px 10px;\r\n    border:1px solid #BBBBBB;\r\n    border-radius: 5px;\r\n    background-color:white;\r\n\r\n}\r\n.red{\r\n    color:red;\r\n    font-size:28px;\r\n}\r\n.fav-box{\r\n    width:90%;\r\n    height:300px;\r\n    margin:0 auto;\r\n    padding:10px 30px;\r\n    border:1px solid #AAAAAA;\r\n    border-bottom:0px;\r\n    overflow-y: auto;\r\n\r\n}\r\n.row{\r\n    border-bottom:1px solid #DDDDDD;\r\n    margin-bottom:10px;\r\n}\r\n.contents{\r\n    white-space: nowrap;\r\n    overflow: hidden; \r\n    text-overflow: ellipsis; \r\n    white-space: normal; \r\n    line-height: 1.2;\r\n    min-height:1.2em; \r\n    max-height: 2.4em; \r\n    text-align: left; \r\n    word-wrap: break-word; \r\n    display: -webkit-box; \r\n\r\n}\r\n.more-btn{\r\n    display: block;\r\n    width:90%;\r\n    margin:0 auto;\r\n    border:1px solid #AAAAAA;\r\n    background:white;\r\n}\r\n.small-font{\r\n    font-size:15px;\r\n    color:#999999;\r\n}\r\n.delete_btn{\r\n    height:100%;\r\n    border:0px;\r\n    background-color: transparent;\r\n}\r\n@media (max-width: 994px) {\r\n    .container{\r\n        width:100%;\r\n        margin:20px 0px;\r\n        padding:10px;\r\n\r\n    }\r\n    h2{\r\n        font-size:23px;\r\n    }\r\n}\r\n"
 
 /***/ }),
 
@@ -2238,7 +2346,7 @@ module.exports = ".container{\r\n    font-family: 'Jua', sans-serif;\r\n    widt
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container text-center\">\r\n  <h2>좋아요 표시한 글 - 게시판</h2>\r\n  <div class=\"fav-box\">\r\n\r\n      <div *ngFor=\"let post of data; index as i;\" class=\"row\">\r\n        <div class=\"col-10\">\r\n          <strong>{{post.contents}}</strong><br>\r\n          <span class=\"small-font\">{{post.date}}</span>\r\n        </div>\r\n        <div class=\"col-2\">\r\n            <button class=\"delete_btn\" (click)=\"unFav(i)\"><i class=\"far fa-times-circle red\"></i></button>\r\n        </div>\r\n      </div>\r\n\r\n</div>\r\n<button class=\"more-btn\">더 보기..</button>\r\n\r\n</div>"
+module.exports = "<div class=\"container text-center\">\r\n  <h2>좋아요 표시한 글 - 게시판</h2>\r\n  <div class=\"fav-box\">\r\n\r\n      <div *ngFor=\"let post of data_; index as i;\" class=\"row\">\r\n        <div class=\"col-10\">\r\n          <strong class=\"contents\">{{post.contents}}</strong>\r\n          <span class=\"small-font\">{{post.date}}</span>\r\n        </div>\r\n        <div class=\"col-2\">\r\n            <button class=\"delete_btn\" (click)=\"unFav(i)\"><i class=\"far fa-times-circle red\"></i></button>\r\n        </div>\r\n      </div>\r\n      <h4 *ngIf=\"is_empty\" style=\"margin-top:130px;\">좋아요를 표시한 글이 없어요!</h4>\r\n\r\n</div>\r\n<button class=\"more-btn\">더 보기..</button>\r\n\r\n</div>"
 
 /***/ }),
 
@@ -2268,20 +2376,41 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var BoardFavComponent = /** @class */ (function () {
     function BoardFavComponent(uniService) {
         this.uniService = uniService;
+        this.is_empty = true;
+        this.refresh = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
     }
+    Object.defineProperty(BoardFavComponent.prototype, "data", {
+        set: function (value) {
+            if (value && value.length >= 1) {
+                this.data_ = value;
+                this.is_empty = false;
+            }
+            else {
+                this.data_ = [];
+                this.is_empty = true;
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
     BoardFavComponent.prototype.ngOnInit = function () {
     };
     BoardFavComponent.prototype.unFav = function (i) {
         var _this = this;
-        var id = { $oid: this.data[i]._id };
+        var id = { $oid: this.data_[i]._id };
         this.uniService.unFavBoard(id).subscribe(function (response) {
-            _this.data.splice(i, 1);
+            _this.refresh.emit('');
         }, function (error) { return console.log('error', error); });
     };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
-        __metadata("design:type", Object)
-    ], BoardFavComponent.prototype, "data", void 0);
+        __metadata("design:type", Object),
+        __metadata("design:paramtypes", [Object])
+    ], BoardFavComponent.prototype, "data", null);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"])(),
+        __metadata("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"])
+    ], BoardFavComponent.prototype, "refresh", void 0);
     BoardFavComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'board-fav',
@@ -2446,7 +2575,7 @@ var FavPostComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".container{\r\n    font-family: 'Jua', sans-serif;\r\n    width:90%;\r\n    height:350px;\r\n    padding:20px;\r\n    margin:50px 40px 0px 10px;\r\n    background-color:white;\r\n    border:1px solid #BBBBBB;\r\n    border-radius: 5px;\r\n}\r\n.fav-box{\r\n    width:90%;\r\n    height:200px;\r\n    margin:0 auto;\r\n    padding:10px;\r\n    border:1px solid #AAAAAA;\r\n    overflow-y: auto;\r\n}\r\n.tag{\r\n    padding:5px;\r\n    margin-right:5px;\r\n    margin-bottom: 6px;\r\n    border:0px;\r\n    border-radius: 5px;\r\n    background-color:#DDDDDD;\r\n}\r\n.small-font{\r\n    font-size:15px;\r\n    color:#999999;\r\n}\r\n@media (max-width: 576px) {\r\n    .container{\r\n        width:100%;\r\n        margin:20px 0px;\r\n        padding:10px;\r\n\r\n    }\r\n}\r\n"
+module.exports = ".container{\r\n    font-family: 'Jua', sans-serif;\r\n    width:90%;\r\n    height:350px;\r\n    padding:20px;\r\n    margin:50px 40px 0px 10px;\r\n    background-color:white;\r\n    border:1px solid #BBBBBB;\r\n    border-radius: 5px;\r\n}\r\n.fav-box{\r\n    width:90%;\r\n    height:200px;\r\n    margin:0 auto;\r\n    padding:10px;\r\n    border:1px solid #AAAAAA;\r\n    overflow-y: auto;\r\n}\r\n.tag{\r\n    padding:5px;\r\n    margin-right:5px;\r\n    margin-bottom: 6px;\r\n    border:0px;\r\n    border-radius: 5px;\r\n    background-color:#DDDDDD;\r\n}\r\n.small-font{\r\n    font-size:15px;\r\n    color:#999999;\r\n}\r\n@media (max-width: 994px) {\r\n    .container{\r\n        width:100%;\r\n        margin:20px 0px;\r\n        padding:10px;\r\n\r\n    }\r\n}\r\n"
 
 /***/ }),
 
@@ -2457,7 +2586,7 @@ module.exports = ".container{\r\n    font-family: 'Jua', sans-serif;\r\n    widt
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container text-center\">\r\n    <h2>관심있는 태그</h2>\r\n    <p class=\"small-font\">태그를 누르면 삭제됩니다.</p>\r\n    <div class=\"fav-box\">\r\n      <button *ngFor=\"let tag of data; index as i\" (click)=\"removeTag(i)\" class=\"tag\">#{{tag}}</button>\r\n    </div>\r\n</div>"
+module.exports = "<div class=\"container text-center\">\r\n    <h2>관심있는 태그</h2>\r\n    <p class=\"small-font\">태그를 누르면 삭제됩니다.</p>\r\n    <div class=\"fav-box\">\r\n      <button *ngFor=\"let tag of data_; index as i\" (click)=\"removeTag(i)\" class=\"tag\">#{{tag}}</button>\r\n      <h4 *ngIf=\"is_empty\" style=\"margin-top:70px;\">등록된 태그가 없어요!</h4>\r\n    </div>\r\n</div>"
 
 /***/ }),
 
@@ -2487,21 +2616,37 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var FavTagComponent = /** @class */ (function () {
     function FavTagComponent(uniService) {
         this.uniService = uniService;
+        this.is_empty = true;
         this.refresh = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
     }
+    Object.defineProperty(FavTagComponent.prototype, "data", {
+        set: function (value) {
+            if (value && value.length >= 1) {
+                this.data_ = value;
+                this.is_empty = false;
+            }
+            else {
+                this.data_ = [];
+                this.is_empty = true;
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
     FavTagComponent.prototype.ngOnInit = function () {
     };
     FavTagComponent.prototype.removeTag = function (index) {
         var _this = this;
-        var remove_tag = { 'fav_tag': this.data[index] };
+        var remove_tag = { 'fav_tag': this.data_[index] };
         this.uniService.removeFavTag(remove_tag).subscribe(function (response) {
             _this.refresh.emit('');
         }, function (error) { return console.log('이건 에러야 !!error', error); });
     };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
-        __metadata("design:type", Object)
-    ], FavTagComponent.prototype, "data", void 0);
+        __metadata("design:type", Object),
+        __metadata("design:paramtypes", [Object])
+    ], FavTagComponent.prototype, "data", null);
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"])(),
         __metadata("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"])
@@ -2602,7 +2747,7 @@ module.exports = ".container{\r\n    margin-top:160px;\r\n    height:1000px;\r\n
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--<div class=\"container\">\r\n  <div class=\"menu_bar text-center\">\r\n    <button class=\"menu\" routerLink=\"change-password\" (mouseover)=\"open(0)\" (mouseleave)=\"close(0)\"><span [ngStyle]=\"{'font-size': btn_arr[0]==true ? '18px' : '30px'}\"><i class=\"fas fa-lock\"></i></span><span [ngStyle]=\"{display: btn_arr[0]==true ? '' : 'none'}\"><br>암호<br>변경</span></button>\r\n    <button class=\"menu\" routerLink=\"edit-nickname\" (mouseover)=\"open(1)\" (mouseleave)=\"close(1)\"><span [ngStyle]=\"{'font-size': btn_arr[1]==true ? '18px' : '30px'}\"><i class=\"far fa-flushed\"></i></span><span [ngStyle]=\"{display: btn_arr[1]==true ? '' : 'none'}\"><br>별명<br>설정</span></button>\r\n    <button class=\"menu\" routerLink=\"fav-post\" (mouseover)=\"open(2)\" (mouseleave)=\"close(2)\"><span [ngStyle]=\"{'font-size': btn_arr[2]==true ? '18px' : '30px'}\"><i class=\"fas fa-star\"></i></span><span [ngStyle]=\"{display: btn_arr[2]==true ? '' : 'none'}\"><br>관심있는<br>글</span></button>\r\n    <button class=\"menu\" routerLink=\"fav-tag\" (mouseover)=\"open(3)\" (mouseleave)=\"close(3)\"><span [ngStyle]=\"{'font-size': btn_arr[3]==true ? '18px' : '30px'}\"><i class=\"fas fa-tags\"></i></span><span [ngStyle]=\"{display: btn_arr[3]==true ? '' : 'none'}\"><br>관심있는<br>태그</span></button>\r\n  </div>\r\n  <router-outlet></router-outlet>\r\n</div>-->\r\n<link href=\"https://fonts.googleapis.com/css?family=Jua\" rel=\"stylesheet\">\r\n\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col-sm-6\">\r\n      <profile (nickname) = \"nickname($event)\" [data]=\"profile_data\"></profile>\r\n    </div>\r\n    <div class=\"col-sm-6\">\r\n      <fav-tag (refresh) = \"refresh($event)\" [data]=\"tag_data\"></fav-tag>\r\n    </div>\r\n  </div>\r\n  \r\n  <div class=\"row\">\r\n      <div class=\"col-sm-6\">\r\n        <timeline-fav (refresh) = \"refresh($event)\" [data]=\"timeline_data\"></timeline-fav>\r\n      </div>\r\n      <div class=\"col-sm-6\">\r\n        <board-fav [data]=\"board_data\"></board-fav>\r\n      </div>\r\n    </div>\r\n  <div class=\"row\">\r\n    <div class=\"col-sm-6\">\r\n      <blacklist (refresh) = \"refresh($event)\" [data]=\"black_tag\"></blacklist>\r\n    </div>\r\n  </div>\r\n</div>"
+module.exports = "<!--<div class=\"container\">\r\n  <div class=\"menu_bar text-center\">\r\n    <button class=\"menu\" routerLink=\"change-password\" (mouseover)=\"open(0)\" (mouseleave)=\"close(0)\"><span [ngStyle]=\"{'font-size': btn_arr[0]==true ? '18px' : '30px'}\"><i class=\"fas fa-lock\"></i></span><span [ngStyle]=\"{display: btn_arr[0]==true ? '' : 'none'}\"><br>암호<br>변경</span></button>\r\n    <button class=\"menu\" routerLink=\"edit-nickname\" (mouseover)=\"open(1)\" (mouseleave)=\"close(1)\"><span [ngStyle]=\"{'font-size': btn_arr[1]==true ? '18px' : '30px'}\"><i class=\"far fa-flushed\"></i></span><span [ngStyle]=\"{display: btn_arr[1]==true ? '' : 'none'}\"><br>별명<br>설정</span></button>\r\n    <button class=\"menu\" routerLink=\"fav-post\" (mouseover)=\"open(2)\" (mouseleave)=\"close(2)\"><span [ngStyle]=\"{'font-size': btn_arr[2]==true ? '18px' : '30px'}\"><i class=\"fas fa-star\"></i></span><span [ngStyle]=\"{display: btn_arr[2]==true ? '' : 'none'}\"><br>관심있는<br>글</span></button>\r\n    <button class=\"menu\" routerLink=\"fav-tag\" (mouseover)=\"open(3)\" (mouseleave)=\"close(3)\"><span [ngStyle]=\"{'font-size': btn_arr[3]==true ? '18px' : '30px'}\"><i class=\"fas fa-tags\"></i></span><span [ngStyle]=\"{display: btn_arr[3]==true ? '' : 'none'}\"><br>관심있는<br>태그</span></button>\r\n  </div>\r\n  <router-outlet></router-outlet>\r\n</div>-->\r\n<link href=\"https://fonts.googleapis.com/css?family=Jua\" rel=\"stylesheet\">\r\n\r\n<div class=\"container\">\r\n  <div class=\"row\">\r\n    <div class=\"col-lg-6\">\r\n      <profile (nickname) = \"nickname($event)\" [data]=\"profile_data\"></profile>\r\n    </div>\r\n    <div class=\"col-lg-6\">\r\n      <fav-tag (refresh) = \"refresh($event)\" [data]=\"tag_data\"></fav-tag>\r\n    </div>\r\n  </div>\r\n  \r\n  <div class=\"row\">\r\n      <div class=\"col-lg-6\">\r\n        <timeline-fav (refresh) = \"refresh($event)\" [data]=\"timeline_data\"></timeline-fav>\r\n      </div>\r\n      <div class=\"col-lg-6\">\r\n        <board-fav (refresh) = \"refresh($event)\"  [data]=\"board_data\"></board-fav>\r\n      </div>\r\n    </div>\r\n  <div class=\"row\">\r\n    <div class=\"col-lg-6\">\r\n      <blacklist (refresh) = \"refresh($event)\" [data]=\"black_tag\"></blacklist>\r\n    </div>\r\n  </div>\r\n</div>"
 
 /***/ }),
 
@@ -2752,7 +2897,7 @@ var MyPageComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".container{\r\n    font-family: 'Jua', sans-serif;\r\n    width:90%;\r\n    height:350px;\r\n    padding:20px;\r\n    margin:50px 10px 0px 40px;\r\n    background-color:white;\r\n    border:1px solid #BBBBBB;\r\n    border-radius: 5px;\r\n}\r\n.profile_head{\r\n    font-size:30px;\r\n    text-align:center;\r\n}\r\n.profile_body{\r\n    margin-top:60px;\r\n    text-align:center;\r\n    height:130px;\r\n    font-size:22px;\r\n}\r\n.big-font{\r\n    font-size:35px;\r\n}\r\n.profile_footer{\r\n    text-align:center;\r\n}\r\n.change_btn{\r\n    margin:10px 5px;\r\n    padding:10px;\r\n    background-color:#212529;\r\n    color:#fed136;\r\n    border:0px;\r\n    border-radius: 5px;\r\n    font-family: 'Do Hyeon', sans-serif;\r\n    font-size:20px;\r\n}\r\n@media (max-width: 576px) {\r\n    .container{\r\n        width:100%;\r\n        margin:20px 0px;\r\n        padding:10px;\r\n\r\n    }\r\n    .change_btn{\r\n        margin:10px 10px;\r\n        padding:10px;\r\n        background-color:#212529;\r\n        color:#fed136;\r\n        border:0px;\r\n        border-radius: 5px;\r\n        font-family: 'Do Hyeon', sans-serif;\r\n        font-size:15px;\r\n    }\r\n    .col-sm-6{\r\n        padding:0px;\r\n    }\r\n}\r\n\r\n"
+module.exports = ".container{\r\n    font-family: 'Jua', sans-serif;\r\n    width:90%;\r\n    height:350px;\r\n    padding:20px;\r\n    margin:50px 10px 0px 40px;\r\n    background-color:white;\r\n    border:1px solid #BBBBBB;\r\n    border-radius: 5px;\r\n}\r\n.profile_head{\r\n    font-size:30px;\r\n    text-align:center;\r\n}\r\n.profile_body{\r\n    margin-top:60px;\r\n    text-align:center;\r\n    height:130px;\r\n    font-size:22px;\r\n}\r\n.big-font{\r\n    font-size:35px;\r\n}\r\n.profile_footer{\r\n    text-align:center;\r\n}\r\n.change_btn{\r\n    margin:10px 5px;\r\n    padding:10px;\r\n    background-color:#212529;\r\n    color:#fed136;\r\n    border:0px;\r\n    border-radius: 5px;\r\n    font-family: 'Do Hyeon', sans-serif;\r\n    font-size:20px;\r\n}\r\n@media (max-width: 994px) {\r\n    .container{\r\n        width:100%;\r\n        margin:20px 0px;\r\n        padding:10px;\r\n\r\n    }\r\n    .change_btn{\r\n        margin:10px 10px;\r\n        padding:10px;\r\n        background-color:#212529;\r\n        color:#fed136;\r\n        border:0px;\r\n        border-radius: 5px;\r\n        font-family: 'Do Hyeon', sans-serif;\r\n        font-size:15px;\r\n    }\r\n    .col-lg-6{\r\n        padding:0px;\r\n    }\r\n}\r\n@media (max-width: 994px) {\r\n    .change_btn{\r\n        margin:10px 10px;\r\n        padding:10px;\r\n        background-color:#212529;\r\n        color:#fed136;\r\n        border:0px;\r\n        border-radius: 5px;\r\n        font-family: 'Do Hyeon', sans-serif;\r\n        font-size:15px;\r\n    }\r\n}\r\n"
 
 /***/ }),
 
@@ -2801,7 +2946,7 @@ var ProfileComponent = /** @class */ (function () {
         this.uniService = uniService;
         this.nickname = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
         this.nicknameForm = this.fb.group({
-            nickname: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].pattern('[^ \t\r\n\v\f]*')]
+            nickname: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].compose([_angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].pattern('[^ \t\r\n\v\f]*')])]
         });
         this.passwdChangeForm = this.fb.group({
             old_pw: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_2__["Validators"].required],
@@ -2884,7 +3029,7 @@ var ProfileComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".container{\r\n    font-family: 'Jua', sans-serif;\r\n    width:90%;\r\n    height:450px;\r\n    padding:20px;\r\n    margin:50px 10px 0px 40px;\r\n    border:1px solid #BBBBBB;\r\n    border-radius: 5px;\r\n    background-color:white;\r\n\r\n}\r\n.red{\r\n    color:red;\r\n    font-size:22px;\r\n}\r\n.fav-box{\r\n    width:90%;\r\n    height:300px;\r\n    margin:0 auto;\r\n    padding:10px 30px;\r\n    border:1px solid #AAAAAA;\r\n    border-bottom:0px;\r\n    overflow-y: auto;\r\n\r\n}\r\n.row{\r\n    border-bottom:1px solid #DDDDDD;\r\n    margin-bottom:10px;\r\n}\r\n.link{\r\n    color:black;\r\n\r\n}\r\n.link:hover{\r\n    text-decoration: none;\r\n    background-color:#DDDDDD;\r\n    transition: background-color 500ms linear;\r\n}\r\n.more-btn{\r\n    display: block;\r\n    width:90%;\r\n    margin:0 auto;\r\n    border:1px solid #AAAAAA;\r\n    background:white;\r\n}\r\n.small-font{\r\n    font-size:15px;\r\n    color:#999999;\r\n}\r\n.delete_btn{\r\n    height:100%;\r\n    border:0px;\r\n    background-color: transparent;\r\n}\r\n@media (max-width: 576px) {\r\n    .container{\r\n        width:100%;\r\n        margin:20px 0px;\r\n        padding:10px;\r\n\r\n    }\r\n    h2{\r\n        font-size:23px;\r\n    }\r\n\r\n}\r\n"
+module.exports = ".container{\r\n    font-family: 'Jua', sans-serif;\r\n    width:90%;\r\n    height:450px;\r\n    padding:20px;\r\n    margin:50px 10px 0px 40px;\r\n    border:1px solid #BBBBBB;\r\n    border-radius: 5px;\r\n    background-color:white;\r\n\r\n}\r\n.red{\r\n    color:red;\r\n    font-size:22px;\r\n}\r\n.fav-box{\r\n    width:90%;\r\n    height:300px;\r\n    margin:0 auto;\r\n    padding:10px 30px;\r\n    border:1px solid #AAAAAA;\r\n    border-bottom:0px;\r\n    overflow-y: auto;\r\n\r\n}\r\n.row{\r\n    border-bottom:1px solid #DDDDDD;\r\n    margin-bottom:10px;\r\n}\r\n.link{\r\n    color:black;\r\n\r\n}\r\n.link:hover{\r\n    text-decoration: none;\r\n    background-color:#DDDDDD;\r\n    transition: background-color 500ms linear;\r\n}\r\n.more-btn{\r\n    display: block;\r\n    width:90%;\r\n    margin:0 auto;\r\n    border:1px solid #AAAAAA;\r\n    background:white;\r\n}\r\n.small-font{\r\n    font-size:15px;\r\n    color:#999999;\r\n}\r\n.delete_btn{\r\n    height:100%;\r\n    border:0px;\r\n    background-color: transparent;\r\n}\r\n@media (max-width: 994px) {\r\n    .container{\r\n        width:100%;\r\n        margin:20px 0px;\r\n        padding:10px;\r\n\r\n    }\r\n    h2{\r\n        font-size:23px;\r\n    }\r\n\r\n}\r\n"
 
 /***/ }),
 
@@ -2895,7 +3040,7 @@ module.exports = ".container{\r\n    font-family: 'Jua', sans-serif;\r\n    widt
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container text-center\">\r\n    <h2>좋아요 표시한 글 - 타임라인</h2>\r\n    <div class=\"fav-box\">\r\n      <div *ngFor=\"let post of data; index as i\" class=\"row\">\r\n          <a class=\"col-10 link\"  href=\"{{post.url}}\" target=\"_blank\">\r\n            <strong>{{post.title}}</strong><br>\r\n            <span class=\"small-font\">{{post.after_date}}</span>\r\n            </a>\r\n          <div class=\"col-2\">\r\n              <button class=\"delete_btn\" (click)=\"unFav(i)\"><i class=\"far fa-times-circle red\"></i></button>\r\n          </div>\r\n        \r\n      </div>\r\n  </div>\r\n  <button class=\"more-btn\">더 보기..</button>\r\n\r\n  </div>"
+module.exports = "<div class=\"container text-center\">\r\n    <h2>좋아요 표시한 글 - 타임라인</h2>\r\n    <div class=\"fav-box\">\r\n      <div *ngFor=\"let post of data_; index as i\" class=\"row\">\r\n          <a class=\"col-10 link\"  href=\"{{post.url}}\" target=\"_blank\">\r\n            <strong>{{post.title}}</strong><br>\r\n            <span class=\"small-font\">{{post.after_date}}</span>\r\n            </a>\r\n          <div class=\"col-2\">\r\n              <button class=\"delete_btn\" (click)=\"unFav(i)\"><i class=\"far fa-times-circle red\"></i></button>\r\n          </div>\r\n        \r\n      </div>\r\n      <h4 *ngIf=\"is_empty\" style=\"margin-top:130px;\">좋아요를 표시한 글이 없어요!</h4>\r\n  </div>\r\n  <button class=\"more-btn\">더 보기..</button>\r\n\r\n  </div>"
 
 /***/ }),
 
@@ -2925,27 +3070,42 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var TimelineFavComponent = /** @class */ (function () {
     function TimelineFavComponent(uniService) {
         this.uniService = uniService;
+        this.is_empty = true;
         this.refresh = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
     }
+    Object.defineProperty(TimelineFavComponent.prototype, "data", {
+        set: function (value) {
+            if (value && value.length >= 1) {
+                this.data_ = value;
+                this.is_empty = false;
+            }
+            else {
+                this.data_ = [];
+                this.is_empty = true;
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
     TimelineFavComponent.prototype.ngOnInit = function () {
     };
     TimelineFavComponent.prototype.unFav = function (i) {
         var _this = this;
         var postData = {
-            id: this.data[i]._id,
-            title: this.data[i].title,
-            url: this.data[i].url,
-            date: this.data[i].date
+            id: this.data_[i]._id,
+            title: this.data_[i].title,
+            url: this.data_[i].url,
+            date: this.data_[i].date
         };
-        var id = { $oid: this.data[i]._id };
         this.uniService.unFavTimeline(postData).subscribe(function (response) {
-            _this.data.splice(i, 1);
+            _this.refresh.emit('');
         }, function (error) { return console.log('error', error); });
     };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
-        __metadata("design:type", Object)
-    ], TimelineFavComponent.prototype, "data", void 0);
+        __metadata("design:type", Object),
+        __metadata("design:paramtypes", [Object])
+    ], TimelineFavComponent.prototype, "data", null);
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"])(),
         __metadata("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"])
@@ -3052,7 +3212,7 @@ module.exports = "body {\r\n    border-radius:10px;\r\n    font-family: 'Nanum P
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<link href=\"//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" rel=\"stylesheet\" id=\"bootstrap-css\">\r\n<script src=\"//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js\"></script>\r\n<script src=\"//code.jquery.com/jquery-1.11.1.min.js\"></script>\r\n<!------ Include the above in your HEAD tag ---------->\r\n\r\n<!DOCTYPE html>\r\n<!--\r\nTo change this license header, choose License Headers in Project Properties.\r\nTo change this template file, choose Tools | Templates\r\nand open the template in the editor.\r\n-->\r\n<html>\r\n    <head>\r\n        <title>eiei</title>\r\n        <!--<meta charset=\"UTF-8\">-->\r\n        <!--<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">-->\r\n        <!--<link href=\"css/regist.css\" rel=\"stylesheet\" type=\"text/css\"/>-->\r\n        <!--<link href='css/bootstrap.min.css' rel=\"stylesheet\">-->\r\n        <!--<meta charset=\"UTF-8\">-->\r\n        <!--<link rel=\"stylesheet\" href=\"//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css\">-->\r\n        <!--<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>-->\r\n        <!--<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/jquery.validate.min.js\"></script>-->\r\n        <!--<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\" />-->\r\n\r\n        <!--<link href=\"css/regist.css\" rel=\"stylesheet\" type=\"text/css\"/>-->\r\n        <!--<link href='css/bootstrap.min.css' rel=\"stylesheet\">-->\r\n        <link href=\"https://fonts.googleapis.com/css?family=Do+Hyeon|Nanum+Pen+Script\" rel=\"stylesheet\">\r\n    </head>\r\n    <body>\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"panel panel-primary\">\r\n                    <div class=\"panel-body\">\r\n                        <form [formGroup]=\"signUpForm\" (ngSubmit)=\"registerNewUser()\">\r\n                            <div class=\"form-group\">\r\n                                <h2>계정 생성</h2>\r\n                            </div>\r\n                            <div class=\"form-group\">\r\n                                <label class=\"control-label\" for=\"signupName\">계정</label>\r\n                                <input id=\"signupName\" type=\"text\" maxlength=\"50\" class=\"form-control\" formControlName=\"user_id\">\r\n                            </div>\r\n                            <div class=\"form-group\">\r\n                                <label class=\"control-label\" for=\"signupPassword\">암호</label>\r\n                                <input id=\"signupPassword\" type=\"password\" maxlength=\"25\" class=\"form-control\" placeholder=\"\" length=\"40\" formControlName=\"user_pw\">\r\n                            </div>\r\n                            <div class=\"form-group\">\r\n                                <label class=\"control-label\" for=\"signupPasswordagain\">암호 재확인</label>\r\n                                <input id=\"signupPasswordagain\" type=\"password\" maxlength=\"25\" class=\"form-control\" formControlName=\"user_pwc\">\r\n                            </div>\r\n                            <div class=\"form-group\">\r\n                                <label class=\"control-label\" for=\"signupPasswordagain\">본인 확인 질문</label><br>            \r\n                                <select class=\"question\" name=\"question\" formControlName=\"user_que\">\r\n                                    <option value=\"\">질문을 선택해주세요</option>\r\n                                    <option value=\"나의 학과는?\">나의 학과는?</option>\r\n                                    <option value=\"나의 어머니 성함은?\">나의 어머니 성함은?</option>\r\n                                    <option value=\"나의 고향은?\">나의 고향은?</option>\r\n                                    <option value=\"나의 출신 고등학교는?\">나의 출신 고등학교는?</option>\r\n                                    <option value=\"나의 아버지 성함은?\">나의 아버지 성함은?</option>\r\n                                    <option value=\"나의 취미는?\">나의 취미는?</option>\r\n                                    <option value=\"나의 라임 오렌지나무\">나의 라임 오렌지나무</option>\r\n\r\n                                </select>\r\n                                <input id=\"signupPassworquestion\" type=\"text\" maxlength=\"25\" class=\"form-control\" formControlName=\"user_ans\">\r\n                            </div>\r\n                            <div class=\"form-group\">\r\n                                <button id=\"signupSubmit\" type=\"submit\" class=\"btn btn-info btn-block\">계정 생성 하기</button>\r\n                            </div>\r\n                            <p class=\"form-group font-small\">생성된 계정은 2개월 간 접속하지 않을 경우 계정이 삭제됩니다.</p>\r\n                            <hr>\r\n                            <p>이미 계정이 있으신가요? <a href=\"#\">로그인</a></p>\r\n                        </form>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n\r\n    </body>\r\n</html>\r\n"
+module.exports = "<link href=\"//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" rel=\"stylesheet\" id=\"bootstrap-css\">\r\n<script src=\"//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js\"></script>\r\n<script src=\"//code.jquery.com/jquery-1.11.1.min.js\"></script>\r\n<!------ Include the above in your HEAD tag ---------->\r\n\r\n<!DOCTYPE html>\r\n<!--\r\nTo change this license header, choose License Headers in Project Properties.\r\nTo change this template file, choose Tools | Templates\r\nand open the template in the editor.\r\n-->\r\n<html>\r\n    <head>\r\n        <title>eiei</title>\r\n        <!--<meta charset=\"UTF-8\">-->\r\n        <!--<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">-->\r\n        <!--<link href=\"css/regist.css\" rel=\"stylesheet\" type=\"text/css\"/>-->\r\n        <!--<link href='css/bootstrap.min.css' rel=\"stylesheet\">-->\r\n        <!--<meta charset=\"UTF-8\">-->\r\n        <!--<link rel=\"stylesheet\" href=\"//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css\">-->\r\n        <!--<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>-->\r\n        <!--<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/jquery.validate.min.js\"></script>-->\r\n        <!--<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\" />-->\r\n\r\n        <!--<link href=\"css/regist.css\" rel=\"stylesheet\" type=\"text/css\"/>-->\r\n        <!--<link href='css/bootstrap.min.css' rel=\"stylesheet\">-->\r\n        <link href=\"https://fonts.googleapis.com/css?family=Do+Hyeon|Nanum+Pen+Script\" rel=\"stylesheet\">\r\n    </head>\r\n    <body>\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"panel panel-primary\">\r\n                    <div class=\"panel-body\">\r\n                        <form [formGroup]=\"signUpForm\" (ngSubmit)=\"registerNewUser()\">\r\n                            <div class=\"form-group\">\r\n                                <h2>계정 생성</h2>\r\n                            </div>\r\n                            <div class=\"form-group\">\r\n                                <label class=\"control-label\" for=\"signupName\">계정</label>\r\n                                <input id=\"signupName\" type=\"text\" maxlength=\"50\" class=\"form-control\" formControlName=\"user_id\">\r\n                            </div>\r\n                            <div class=\"form-group\">\r\n                                <label class=\"control-label\" for=\"signupPassword\">암호</label>\r\n                                <input id=\"signupPassword\" type=\"password\" maxlength=\"25\" class=\"form-control\" placeholder=\"\" length=\"40\" formControlName=\"user_pw\">\r\n                            </div>\r\n                            <div class=\"form-group\">\r\n                                <label class=\"control-label\" for=\"signupPasswordagain\">암호 재확인</label>\r\n                                <input id=\"signupPasswordagain\" type=\"password\" maxlength=\"25\" class=\"form-control\" formControlName=\"user_pwc\">\r\n                            </div>\r\n                            <div class=\"form-group\">\r\n                                <label class=\"control-label\" for=\"signupPasswordagain\">본인 확인 질문</label><br>            \r\n                                <select class=\"question\" name=\"question\" formControlName=\"user_que\">\r\n                                    <option value=\"\">질문을 선택해주세요</option>\r\n                                    <option value=\"1\">나의 학과는?</option>\r\n                                    <option value=\"2\">나의 어머니 성함은?</option>\r\n                                    <option value=\"3\">나의 고향은?</option>\r\n                                    <option value=\"4\">나의 취미는?</option>\r\n                                    <option value=\"5\">나의 첫사랑은?</option>\r\n                                    <option value=\"6\">나의 아버지 성함은?</option>\r\n                                    <option value=\"7\">나의 라임오렌지 나무</option>\r\n\r\n                                </select>\r\n                                <input id=\"signupPassworquestion\" type=\"text\" maxlength=\"25\" class=\"form-control\" formControlName=\"user_ans\">\r\n                            </div>\r\n                            <div class=\"form-group\">\r\n                                <button id=\"signupSubmit\" type=\"submit\" class=\"btn btn-info btn-block\">계정 생성 하기</button>\r\n                            </div>\r\n                            <p class=\"form-group font-small\">생성된 계정은 2개월 간 접속하지 않을 경우 계정이 삭제됩니다.</p>\r\n                            <hr>\r\n                            <p>이미 계정이 있으신가요? <a href=\"#\">로그인</a></p>\r\n                        </form>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n\r\n    </body>\r\n</html>\r\n"
 
 /***/ }),
 
@@ -3086,33 +3246,38 @@ var StartSignUpComponent = /** @class */ (function () {
         this.fb = fb;
         this.uniService = uniService;
         this.signUpForm = this.fb.group({
-            user_id: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
-            user_pw: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
-            user_pwc: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
-            user_que: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
-            user_ans: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')],
+            user_id: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].compose([_angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')])],
+            user_pw: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].compose([_angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')])],
+            user_pwc: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].compose([_angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].pattern('[^ \t\r\n\v\f]*')])],
+            user_que: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required],
+            user_ans: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required],
         });
     }
     StartSignUpComponent.prototype.ngOnInit = function () {
         this.signUpForm.reset();
     };
     StartSignUpComponent.prototype.registerNewUser = function () {
-        this.userData = {
-            user_id: this.signUpForm.value.user_id,
-            user_pw: this.signUpForm.value.user_pw,
-            user_que: this.signUpForm.value.user_que,
-            user_ans: this.signUpForm.value.user_ans,
-        };
-        this.uniService.registerNewUser(this.userData).subscribe(function (response) {
-            if (response == "Duplicate accounts") {
-                alert("중복된 계정입니다. 다시 입력해주세요.");
-            }
-            else {
-                alert("가입이 완료되었습니다.");
-                localStorage.setItem('token', response.access_token);
-                location.href = "/#/timeline";
-            }
-        }, function (error) { return console.log('이건 에러야 !!error', error); });
+        if (!this.signUpForm.valid) {
+            alert("모든 정보를 입력해 주세요!");
+        }
+        else {
+            this.userData = {
+                user_id: this.signUpForm.value.user_id,
+                user_pw: this.signUpForm.value.user_pw,
+                user_que: this.signUpForm.value.user_que,
+                user_ans: this.signUpForm.value.user_ans,
+            };
+            this.uniService.registerNewUser(this.userData).subscribe(function (response) {
+                if (response == "Duplicate accounts") {
+                    alert("중복된 계정입니다. 다시 입력해주세요.");
+                }
+                else {
+                    alert("가입이 완료되었습니다.");
+                    localStorage.setItem('token', response.access_token);
+                    location.href = "/#/timeline";
+                }
+            }, function (error) { return console.log('이건 에러야 !!error', error); });
+        }
     };
     StartSignUpComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -3269,7 +3434,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\wo786\Pookle\client\UNI\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\YJ\pookle\client\UNI\src\main.ts */"./src/main.ts");
 
 
 /***/ })

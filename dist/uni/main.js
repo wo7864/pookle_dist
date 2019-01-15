@@ -1751,9 +1751,9 @@ var UniService = /** @class */ (function () {
             user_id: 'asdf',
         };
         //url = "http://121.145.54.15:5000"
-        this.url = "http://127.0.0.1:5000";
+        //url = "http://127.0.0.1:5000"
+        this.url = "http://13.209.117.30:5000";
     }
-    //url = "http://13.209.117.30:5000";
     UniService.prototype.registerNewUser = function (userData) {
         return this.http.post(this.url + '/users', userData);
         //return this.http.post('http://123.142.171.25:5000/users', userData, httpOptions)
